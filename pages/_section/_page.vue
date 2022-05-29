@@ -1,6 +1,6 @@
 <template>
   <div>
-    <article v-for="article in content" v-bind:key="article.slug">
+    <article>
       <h1>
         <NuxtLink :to="article">{{ article.title }}</NuxtLink>
       </h1>
@@ -14,15 +14,14 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'IndexPage',
-  async asyncData({ $content }) {
-    const content = await $content('', { deep: true })
+  name: 'SectionPage',
+  async asyncData({ $content, params }) {
+    const article = await $content(params.section, params.page)
       .where({ draft: { $ne: true } })
-      .sortBy('date', 'desc')
       .fetch()
       .catch(() => {})
 
-    return { content }
+    return { article }
   },
 })
 </script>
