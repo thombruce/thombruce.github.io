@@ -1,5 +1,4 @@
-<template>
-  <main>
-    <ContentDoc class="prose" />
-  </main>
+<template lang="pug">
+main
+  ContentDoc.prose
 </template>

@@ -1,5 +1,4 @@
-<template>
-  <div class="container mx-auto px-4">
-    <NuxtPage />
-  </div>
+<template lang="pug">
+.container.mx-auto.px-4
+  NuxtPage
 </template>
