@@ -1,5 +1,8 @@
 <template lang="pug">
 .container.mx-auto.px-4
+  header
+    NavLinks
+
   NuxtPage
 
   footer
