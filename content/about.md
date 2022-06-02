@@ -16,4 +16,9 @@ Thom is a father, freerunner and software developer from Carlisle, UK.
 - Scarlet (cat #1)
 - Oscar (cat #2)
 
+## Social
+
+- [Twitter](https://twitter.com/thombruce)
+- [GitHub](https://github.com/thombruce)
+
 [< back home](/)
