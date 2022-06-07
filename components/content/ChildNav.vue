@@ -1,3 +1,5 @@
+<!-- This template should be redundant in a future release of @nuxt/content -->
+
 <template lang="pug">
 nav
   ContentNavigation(v-slot="{ navigation }" :path="[path]")
