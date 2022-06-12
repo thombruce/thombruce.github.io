@@ -5,7 +5,7 @@ const { data: navigation } = await useAsyncData('navigation', () => {
 </script>
 
 <template lang="pug">
-.container.mx-auto.px-4
+.container.max-w-prose.mx-auto.px-4
   header
     NavLinks
 
