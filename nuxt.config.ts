@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   content: {
     highlight: {
-      preload: ['pug']
+      preload: ['vue']
     }
   }
 })
