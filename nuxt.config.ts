@@ -8,7 +8,31 @@ export default defineNuxtConfig({
   ],
   content: {
     highlight: {
-      preload: ['vue']
+      preload: [
+        'css',
+        'diff',
+        'erb',
+        'haml',
+        'html',
+        'javascript',
+        'json',
+        'markdown',
+        'postcss',
+        'pug',
+        'python',
+        'ruby',
+        'rust',
+        'sass',
+        'scss',
+        'shell',
+        'sql',
+        'toml',
+        'typescript',
+        'vue',
+        'vue-html',
+        'xml',
+        'yaml',
+      ]
     }
   }
 })
