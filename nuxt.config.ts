@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
+    '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/tailwindcss',
   ],
   content: {
