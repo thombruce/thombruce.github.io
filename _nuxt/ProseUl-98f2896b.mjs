@@ -1,0 +1,1 @@
+import{f as r,o,c as n,n as s}from"./entry-d96324e4.mjs";const t={};function a(e,c){return o(),n("ul",null,[s(e.$slots,"default")])}var f=r(t,[["render",a]]);export{f as default};

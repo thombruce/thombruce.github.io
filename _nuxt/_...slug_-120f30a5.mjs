@@ -1,0 +1,1 @@
+import{o as n,c as o,a as c,s as t,f as _}from"./entry-d96324e4.mjs";function a(r,l){const e=t;return n(),o("main",null,[c(e,{class:"prose"})])}const s={};var p=_(s,[["render",a]]);export{p as default};
