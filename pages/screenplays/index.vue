@@ -1,18 +1,18 @@
 <template lang='pug'>
-div
-  article.max-w-prose.mx-auto
-    RockBandBlogList(v-if='content' :articles='content')
+article
+  RockBandBlogList(:articles='articles')
 </template>
 
 <script>
 export default {
   async asyncData ({ $content }) {
-    let content = await $content('blog')
+    const articles = await $content('screenplays')
       .where({ draft: { $ne: true } })
       .sortBy('date', 'desc')
       .fetch()
       .catch(() => {})
-    return { content }
+
+    return { articles }
   }
 }
 </script>
