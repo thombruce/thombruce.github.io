@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Layout.astro
 title: Last Thursday
 date: 2010-12-06
 ---
