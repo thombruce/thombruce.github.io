@@ -2,8 +2,13 @@
 navigation: false
 ---
 
-# TNT
+# Thom Bruce
 
-A dynamite Nuxt template.
+Welcome to ThomBruce.com
 
-_Replace the contents of this file with your own at `/content/index.md`._
+## My Stuff
+
+- [YouTube](https://youtube.com/@thombruce)
+- [Twitch](https://twitch.tv/thombruce)
+- [GitHub](https://github.com/thombruce)
+- [Discord](https://discord.gg/SAUagUgTfa)
