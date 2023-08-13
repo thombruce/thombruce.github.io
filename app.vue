@@ -1,5 +1,8 @@
-<script setup>
+<script setup lang="ts">
 const appInfo = await queryContent('/_app/config').only(['name', 'footer']).findOne()
+
+import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
+const query: QueryBuilderParams = { path: '/', where: [{ navigation: { $eq: false }, _dir: '' }] }
 </script>
 
 <template>
@@ -30,6 +33,19 @@ const appInfo = await queryContent('/_app/config').only(['name', 'footer']).find
           {{ appInfo.footer.text }}
         </p>
         <p>Copyright © {{ new Date().getFullYear() }} - All rights reserved</p>
+      </div>
+
+      <div class="hidden">
+        <ContentList :query="query">
+          <template #default="{ list }">
+            <ul>
+              <li v-for="article in list" :key="article._path">
+                <NuxtLink :to="article._path">{{ article.title }}</NuxtLink>
+              </li>
+            </ul>
+          </template>
+          <template #not-found></template>
+        </ContentList>
       </div>
     </footer>
   </div>
