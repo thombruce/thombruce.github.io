@@ -1,0 +1,83 @@
+# Playlist
+
+## Sonic the Hedgehog
+
+- ~~Sonic the Hedgehog~~
+- Sonic CD
+- Sonic the Hedgehog 2
+- Sonic 3 & Knuckles
+- Sonic Mania
+
+## Doom
+
+- **Doom (1993)**
+- Sigil
+- Doom II
+- Master Levels for Doom II
+- Final Doom: TNT: Evilution
+- Final Doom: The Plutonia Experiment
+- Doom 64
+- Doom 64: The Lost Levels
+- Doom 3
+- Doom 3: Resurrection of Evil
+- Doom 3: The Lost Mission
+- Doom (2016)
+- Doom Eternal
+- Doom Eternal: The Ancient Gods Part One
+- Doom Eternal: The Ancient Gods Part Two
+
+## Classic Shooters
+
+- Duke Nukem 3D
+- Wolfenstein 3D
+- Goldeneye
+- XIII
+- TimeSplitters
+- TimeSplitters 2
+- TimeSplitters: Future Perfect
+- Turok: Dinosaur Hunter
+
+## Grand Theft Auto
+
+- Grand Theft Auto
+- Grand Theft Auto 2
+- Grand Theft Auto III
+- Grand Theft Auto: Vice City
+- Grand Theft Auto: San Andreas
+
+## The Elder Scrolls
+
+- The Elder Scrolls: Arena
+- The Elder Scrolls II: Daggerfall Unity
+- The Elder Scrolls III: Morrowind
+- The Elder Scrolls IV: Oblivion
+- The Elder Scrolls V: Skyrim
+
+## Tomb Raider
+
+- Tomb Raider
+- Tomb Raider II
+- Tomb Raider III
+- Tomb Raider: The Last Revelation
+- Tomb Raider: Chronicles
+- Tomb Raider: The Angel of Darkness
+
+## Metal Gear Solid
+
+- Metal Gear Solid
+- Metal Gear Solid 2
+- Metal Gear Solid 3
+
+## Half-Life
+
+- Half-Life
+- Half-Life 2
+- Half-Life 2: Episode One
+- Half-Life 2: Episode Two
+- Black Mesa
+
+## The Legend of Zelda
+
+- The Legend of Zelda: Ocarina of Time
+- The Legend of Zelda: Majora's Mask
+- The Legend of Zelda: Wind Waker
