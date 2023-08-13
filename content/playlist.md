@@ -50,6 +50,7 @@ title: Playlist
 ## The Elder Scrolls
 
 - The Elder Scrolls: Arena
+- The Elder Scrolls II: Daggerfall
 - The Elder Scrolls II: Daggerfall Unity
 - The Elder Scrolls III: Morrowind
 - The Elder Scrolls IV: Oblivion
