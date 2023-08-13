@@ -1,4 +1,5 @@
 ---
+title: Redirecting to Discord...
 navigation: false
 head:
   meta:
@@ -8,5 +9,3 @@ head:
     - rel: canonical
       href: https://discord.gg/SAUagUgTfa
 ---
-
-# Redirecting to Discord...

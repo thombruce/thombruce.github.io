@@ -1,4 +1,5 @@
 ---
+title: Redirecting to Twitch...
 navigation: false
 head:
   meta:
@@ -8,5 +9,3 @@ head:
     - rel: canonical
       href: https://twitch.tv/thombruce
 ---
-
-# Redirecting to Twitch...

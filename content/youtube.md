@@ -1,4 +1,5 @@
 ---
+title: Redirecting to YouTube...
 navigation: false
 head:
   meta:
@@ -8,5 +9,3 @@ head:
     - rel: canonical
       href: https://youtube.com/@thombruce
 ---
-
-# Redirecting to YouTube...

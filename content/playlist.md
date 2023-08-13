@@ -1,4 +1,6 @@
-# Playlist
+---
+title: Playlist
+---
 
 ## Sonic the Hedgehog
 
