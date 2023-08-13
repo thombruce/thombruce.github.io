@@ -21,7 +21,7 @@ git push -u origin main
 
 ```sh
 git remote add tnt https://github.com/thombruce/tnt.git
-git pull --rebase tnt
+git pull --no-rebase tnt main
 ```
 
 ## Credits
