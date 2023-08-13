@@ -1,10 +1,7 @@
 ---
+title: Thom Bruce
 navigation: false
 ---
-
-# Thom Bruce
-
-Welcome to ThomBruce.com
 
 ## My Stuff
 

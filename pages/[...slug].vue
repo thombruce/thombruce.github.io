@@ -10,6 +10,11 @@ const query: QueryBuilderParams = { path: route.path, where: [{ navigation: { $n
     <Breadcrumbs class="not-prose" />
     <ContentDoc>
       <template #default="{ doc }">
+        <h1>{{ doc.title }}</h1>
+        <div v-if="doc.author">
+          {{ doc.author }}
+        </div>
+
         <ContentRenderer :value="doc" />
       </template>
       <template #empty></template>
