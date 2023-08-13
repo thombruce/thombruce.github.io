@@ -5,5 +5,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
   content: {
+    documentDriven: true,
   }
 })
