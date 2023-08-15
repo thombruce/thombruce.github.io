@@ -1029,15 +1029,16 @@
     postcss-selector-parser "6.0.10"
 
 "@thombruce/tnt@^0.2.2":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.7.tgz#ebe116231e6ae45c1ced9273333bfddcad2ce029"
-  integrity sha512-cYW0eXPybbWplXuIOMUQgSdzZGQUZuM93o4ksplJtUGgjJ7IHCFV6wkP0zAmvF7PbQmlPyFTrdQoNG5hsSZthw==
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.9.tgz#fb36546ffb72bf202427466c11efccaa73179054"
+  integrity sha512-G3Dn97XUBLuKDWYrCBlh1x08sX+S9/YruFX21Olc3ojvmiy4BMYQf01uvAwhJDf3BcJRUPcig8pwchQx2y+Nog==
   dependencies:
     "@nuxt/content" "^2.7.2"
     "@nuxt/image" "^1.0.0-rc.1"
     "@nuxtjs/tailwindcss" "^6.8.0"
     "@tailwindcss/typography" "^0.5.9"
     daisyui "^3.5.1"
+    theme-change "^2.5.0"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -5994,6 +5995,11 @@ terser@^5.17.4:
     acorn "^8.8.2"
     commander "^2.20.0"
     source-map-support "~0.5.20"
+
+theme-change@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/theme-change/-/theme-change-2.5.0.tgz#d3b064af9c4cd01ab16ce0a4ecb251c827a50e68"
+  integrity sha512-B/UdsgdHAGhSKHTAQnxg/etN0RaMDpehuJmZIjLMDVJ6DGIliRHGD6pODi1CXLQAN9GV0GSyB3G6yCuK05PkPQ==
 
 thenify-all@^1.0.0:
   version "1.6.0"
