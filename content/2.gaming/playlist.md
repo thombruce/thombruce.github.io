@@ -2,6 +2,8 @@
 
 :breadcrumbs
 
+:toc
+
 ## Sonic the Hedgehog
 
 - ~~Sonic the Hedgehog~~
