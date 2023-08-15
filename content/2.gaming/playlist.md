@@ -1,5 +1,7 @@
 # Playlist
 
+:breadcrumbs
+
 ## Sonic the Hedgehog
 
 - ~~Sonic the Hedgehog~~
