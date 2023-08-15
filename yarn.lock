@@ -1029,9 +1029,9 @@
     postcss-selector-parser "6.0.10"
 
 "@thombruce/tnt@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.2.tgz#0bc4f98d61ee914258950634c6f6825d267420b4"
-  integrity sha512-k8YWyAq6izBBU/21vZlATQsYQnj7riDy58lXlXTsbWzoaXKrhFSOo9U+F8QG/sieVnPFtuqYErSfxIb8bIq4Eg==
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.7.tgz#ebe116231e6ae45c1ced9273333bfddcad2ce029"
+  integrity sha512-cYW0eXPybbWplXuIOMUQgSdzZGQUZuM93o4ksplJtUGgjJ7IHCFV6wkP0zAmvF7PbQmlPyFTrdQoNG5hsSZthw==
   dependencies:
     "@nuxt/content" "^2.7.2"
     "@nuxt/image" "^1.0.0-rc.1"
@@ -2346,9 +2346,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.477:
-  version "1.4.490"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.490.tgz#d99286f6e915667fa18ea4554def1aa60eb4d5f1"
-  integrity sha512-6s7NVJz+sATdYnIwhdshx/N/9O6rvMxmhVoDSDFdj6iA45gHR8EQje70+RYsF4GeB+k0IeNSBnP7yG9ZXJFr7A==
+  version "1.4.491"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.491.tgz#53de4625bde1e75b5b7804a36c68b2c39f6a0c1f"
+  integrity sha512-ZzPqGKghdVzlQJ+qpfE+r6EB321zed7e5JsvHIlMM4zPFF8okXUkF5Of7h7F3l3cltPL0rG7YVmlp5Qro7RQLA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2863,23 +2863,10 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3@^1.6.6, h3@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/h3/-/h3-1.7.1.tgz#fc9328adf5da1d29cbb2d97b81ae3dd9b426463e"
-  integrity sha512-A9V2NEDNHet7v1gCg7CMwerSigLi0SRbhTy7C3lGb0N4YKIpPmLDjedTUopqp4dnn7COHfqUjjaz3zbtz4QduA==
-  dependencies:
-    cookie-es "^1.0.0"
-    defu "^6.1.2"
-    destr "^2.0.0"
-    iron-webcrypto "^0.7.0"
-    radix3 "^1.0.1"
-    ufo "^1.1.2"
-    uncrypto "^0.1.3"
-
-h3@^1.8.0-rc.3:
-  version "1.8.0-rc.3"
-  resolved "https://registry.yarnpkg.com/h3/-/h3-1.8.0-rc.3.tgz#ede083918a2bf4ebe47e7988bd62516eb660d535"
-  integrity sha512-NhDCNXhrJkt42BDQF57787yXJa2eX2Hl4OMlu+Ym9QBdBaOByUjBrovYaBc+27mtIhHvs2IqPf56to8qcNBI7Q==
+h3@^1.6.6, h3@^1.7.1, h3@^1.8.0-rc.3:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-1.8.0.tgz#8206879324cb29d5f73b08ba97c3cdc8d8aef49e"
+  integrity sha512-057VY83X7Tg5n4XU2GV9M3dsCWUU4jtw2Lc/r4GjAcf9Jb6GI1mD5F8TCQHUcvLMEgtx6lbfobOFu7Vdmejihg==
   dependencies:
     cookie-es "^1.0.0"
     defu "^6.1.2"
@@ -2888,7 +2875,7 @@ h3@^1.8.0-rc.3:
     radix3 "^1.0.1"
     ufo "^1.2.0"
     uncrypto "^0.1.3"
-    unenv "^1.6.1"
+    unenv "^1.7.1"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -4390,9 +4377,9 @@ nitropack@^2.5.2:
     unstorage "^1.7.0"
 
 node-abi@^3.3.0:
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.45.0.tgz#f568f163a3bfca5aacfce1fbeee1fa2cc98441f5"
-  integrity sha512-iwXuFrMAcFVi/ZoZiqq8BzAdsLw9kxDfTC0HMyjXfSL/6CSDAGD5UmR7azrAgWV1zKYq7dUUMj4owusBWKLsiQ==
+  version "3.46.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.46.0.tgz#491adaa8d227ca9702f30b27b2b6b248caa1348f"
+  integrity sha512-LXvP3AqTIrtvH/jllXjkNVbYifpRbt9ThTtymSMSuHmhugQLAWr99QQFTm+ZRht9ziUvdGOgB+esme1C6iE6Lg==
   dependencies:
     semver "^7.3.5"
 
@@ -6126,7 +6113,7 @@ undici@^5.23.0:
   dependencies:
     busboy "^1.6.0"
 
-unenv@^1.5.1, unenv@^1.6.1:
+unenv@^1.5.1, unenv@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/unenv/-/unenv-1.7.1.tgz#76dc9432243a3cd2d1b75bc0f61f9dec57e01a2f"
   integrity sha512-iINrdDcqoAjGqoIeOW85TIfI13KGgW1VWwqNO/IzcvvZ/JGBApMAQPZhWcKhE5oC/woFSpCSXg5lc7r1UaLPng==
@@ -6347,9 +6334,9 @@ update-browserslist-db@^1.0.11:
     picocolors "^1.0.0"
 
 uqr@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/uqr/-/uqr-0.1.0.tgz#4b133d62b59ec6f663e94add5755db386bdf75cc"
-  integrity sha512-jFCDB0ptDeUbNyU52pY2TMawACz0gBNo20Aw8R58s/4Avux/ZuqP8qZh3Q9XA4wU8ztWwEWsStI+tNNEEUHdyQ==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/uqr/-/uqr-0.1.1.tgz#5ec63d0f2bdc9798acc9def6e9dd1634b0116443"
+  integrity sha512-e/60fup+QLBkhvaJNa8fvwBT8Kjaib3VNOW52Y/CwSnobByeyEqpVN7BVofJNZEQ/hyNisxFd1Y5OYRuwJPS3Q==
 
 uri-js@^4.2.2:
   version "4.4.1"
