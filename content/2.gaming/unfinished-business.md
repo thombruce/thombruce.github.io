@@ -1,6 +1,8 @@
-# Playlist
+# Unfinished Business
 
 :breadcrumbs
+
+A long time ago in a bedroom far, far away... my gaming journey began! It started with Sonic the Hedgehog for the Sega Mega Drive (that's the Genesis for the Americans in the audience). Of course I was only 4 or 5 years old, so I played that shit for hours but never did I finish the game. Until now! This is my unfinished business, and believe me the list will continue to grow. Knocking off the games I really want to finish, one at a time. Let's do this!
 
 :toc
 
