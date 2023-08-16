@@ -1029,9 +1029,9 @@
     postcss-selector-parser "6.0.10"
 
 "@thombruce/tnt@^0.2.2":
-  version "0.2.19"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.19.tgz#f890c6cb8f2d42ef19e9703d056e25272c539c4b"
-  integrity sha512-DN3onqdEVCIQfqEkwsljPDajPPw+ZBZXLhkBCfuDDsiK2m+T59oedioX58uBHrwxXJVn+AsMO7PMmXBTJwhacA==
+  version "0.2.20"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.20.tgz#5b95cc9697ff87f07148d83519cf6b60685acbb4"
+  integrity sha512-+fIz5+Uqdb1ufBhSnWSIzyXy0hvd02jzCqXJoecgGjINAUzxgD4gevvTu3ScgVq5sBhvA9GNoNi3O5tbhcnVkQ==
   dependencies:
     "@nuxt/content" "^2.7.2"
     "@nuxt/image" "^1.0.0-rc.1"
