@@ -1029,9 +1029,9 @@
     postcss-selector-parser "6.0.10"
 
 "@thombruce/tnt@^0.2.2":
-  version "0.2.20"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.20.tgz#5b95cc9697ff87f07148d83519cf6b60685acbb4"
-  integrity sha512-+fIz5+Uqdb1ufBhSnWSIzyXy0hvd02jzCqXJoecgGjINAUzxgD4gevvTu3ScgVq5sBhvA9GNoNi3O5tbhcnVkQ==
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.2.21.tgz#315b040e74b016d260321c62ae81f85161b28a4b"
+  integrity sha512-hkuqZcufHXuuPKfDzlwMUG59Z2Lv0sWD3pWAfb2Tl/iGi3zKnYDSSCWnyh43yVGpYBHoyxTs489DyKka7iP+qg==
   dependencies:
     "@nuxt/content" "^2.7.2"
     "@nuxt/image" "^1.0.0-rc.1"
@@ -2366,9 +2366,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.477:
-  version "1.4.492"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.492.tgz#83fed8beb64ec60578069e15dddd17b13a77ca56"
-  integrity sha512-36K9b/6skMVwAIEsC7GiQ8I8N3soCALVSHqWHzNDtGemAcI9Xu8hP02cywWM0A794rTHm0b0zHPeLJHtgFVamQ==
+  version "1.4.493"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.493.tgz#4654f3f806231854f457c97c4ee6db5fcf015635"
+  integrity sha512-T1k9mhYPdjnmS4VAz4J1oKVn6/M6LxoqQEVtYRL0swJVj73bA2NzqF0HjwxGsW3zL3ir0oPmLfd7lyi/RYzreg==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
