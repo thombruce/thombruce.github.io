@@ -2,10 +2,10 @@
 hosting: GitHub Pages
 ---
 
-# TNT
+# ThomBruce.com
 
 :breadcrumbs
 
-[TNT](https://github.com/thombruce/tnt)
+[ThomBruce.com](https://thombruce.com/)
 
 :prev-next

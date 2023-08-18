@@ -1,3 +1,7 @@
+---
+hosting: GitHub Pages
+---
+
 # Free as in Beer
 
 :breadcrumbs

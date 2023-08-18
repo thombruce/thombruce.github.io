@@ -1,3 +1,7 @@
+---
+hosting: Netlify
+---
+
 # The Definitive Edition
 
 :breadcrumbs

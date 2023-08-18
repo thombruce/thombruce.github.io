@@ -1,3 +1,7 @@
+---
+hosting: Netlify
+---
+
 # Toodles
 
 :breadcrumbs
