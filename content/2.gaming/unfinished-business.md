@@ -36,6 +36,8 @@ A long time ago in a bedroom far, far away... my gaming journey began! It starte
 
 - Duke Nukem 3D
 - Wolfenstein 3D
+- Quake
+- Quake II
 - Goldeneye
 - XIII
 - TimeSplitters

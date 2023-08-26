@@ -1052,10 +1052,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thombruce/tnt@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.5.2.tgz#d1aedd059026333263ef2d98fac3056b8d3ab940"
-  integrity sha512-dmIBVZFKz2ccf5MkwdnmU0O1jj/VGA9t3ZqdJOaiOWtqqZqiph61UaQUtvBjg1jtAU4Wj1lae+NI5FOWeB20Cw==
+"@thombruce/tnt@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.5.5.tgz#81b3f8887625067bbf8b3b43d62aa07ece7ad516"
+  integrity sha512-FqLpMDmn/JDtGyRHrYLxAmgvQ4HoRMdcj0SSHb2Xo9/0PTNE1gh0qcgxRkYsEOZbYQFsuA79BWyWqFIYcpuRfw==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^6.4.2"
     "@fortawesome/free-brands-svg-icons" "^6.4.2"
