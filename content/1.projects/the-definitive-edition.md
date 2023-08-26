@@ -1,5 +1,5 @@
 ---
-hosting: Netlify
+hosting: Vercel
 ---
 
 # The Definitive Edition

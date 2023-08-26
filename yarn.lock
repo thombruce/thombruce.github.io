@@ -1052,10 +1052,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thombruce/tnt@^0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.4.5.tgz#fcba78ea41e1008ba5fc3a0f6e3326bc99f67627"
-  integrity sha512-E0Eocusx++gMUZBrkT+3YolAq/cyuxZJn/d0BuvpHvX0XpIthBvVYqnD4tzF2OIfAL9gWftGyr+NS+o7X4fxLQ==
+"@thombruce/tnt@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.5.2.tgz#d1aedd059026333263ef2d98fac3056b8d3ab940"
+  integrity sha512-dmIBVZFKz2ccf5MkwdnmU0O1jj/VGA9t3ZqdJOaiOWtqqZqiph61UaQUtvBjg1jtAU4Wj1lae+NI5FOWeB20Cw==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^6.4.2"
     "@fortawesome/free-brands-svg-icons" "^6.4.2"
@@ -1066,6 +1066,7 @@
     "@nuxtjs/color-mode" "^3.3.0"
     "@nuxtjs/tailwindcss" "^6.8.0"
     "@tailwindcss/typography" "^0.5.9"
+    "@vueuse/core" "^10.4.0"
     "@vueuse/nuxt" "^10.3.0"
     daisyui "^3.5.1"
     nuxt-lodash "^2.5.0"
@@ -1378,7 +1379,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
-"@vueuse/core@10.4.0":
+"@vueuse/core@10.4.0", "@vueuse/core@^10.4.0":
   version "10.4.0"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-10.4.0.tgz#99f1ce30d77a29726d6f736a4595281c2805c214"
   integrity sha512-8JnnTwiuzUqfiYIW8H4FKG/g5ZMKSE+9auoFUwUAkzhqUjy24VbMkNlDBWetQCimiptx7RAO6u1IS55H6+p1Tg==
