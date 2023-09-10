@@ -1026,10 +1026,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thombruce/tnt@^0.8.5":
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.8.5.tgz#06a4528d0bed5e471bdc8643e3976d8ef3148587"
-  integrity sha512-NXgcr+LGLyWBqpkAHZcEJMfHU70Y3TRXDA8EhfrZwBG6rV5j9Pn4fTzVMHlLuXQosjAwoZIWM5O5uGDdzKbgfg==
+"@thombruce/tnt@^0.8.7":
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.8.7.tgz#7d4c804eb36a200d977b851a8dd152a86c3d2f00"
+  integrity sha512-ogv6MZgeo4gI+x0GaluflJbPsNxeCF79jdIrVxrXLmFlquawW/sNZlcfniGcGgL2bHV+0QCF7s38VBgq7ygZtA==
   dependencies:
     "@nuxt/content" "^2.7.2"
     "@nuxtjs/color-mode" "^3.3.0"
