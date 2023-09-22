@@ -1412,20 +1412,20 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thombruce/tnt-content@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.12.0.tgz#82e75fdbbb1bdae656a23909478dcd47c2d9cb84"
-  integrity sha512-fKvTqYQLifuCL1meTLt8m7Jr2M3xWmPr7Cd3isbE3ZY0+x/3o7VCB6zWjQnoVYzF8BuWxg+C6isaHHEVZRhouQ==
+"@thombruce/tnt-content@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.12.1.tgz#eb862b013e206f65e53cd96792eaecbe61a941b5"
+  integrity sha512-6yvTF6TvJHGRckj/VdbSWEZlnJnY/c8d15zxRjZc5jGZ1fto3MWDMOdX/NVG5ajNC0pBi1H2qIIG1H/6zC93YQ==
   dependencies:
     "@nuxt/content" "^2.7.2"
-    "@thombruce/tnt" "^0.12.0"
+    "@thombruce/tnt" "^0.12.1"
     rss "^1.2.2"
     sitemap "^7.1.1"
 
-"@thombruce/tnt@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.12.0.tgz#12cd32b0f792ed92abed2902ec93bc02b008bb9e"
-  integrity sha512-rHEfaPt0KKLQRTQaT+5/+tXvOYY6IAG8PcOC5v7Xpnzkzx2gEiqO14QDfglW0lrj9T7yVySpOU7MngkJ8gC6Ww==
+"@thombruce/tnt@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.12.1.tgz#bd590a6e523586d580aba67a00c90f26fe54a776"
+  integrity sha512-ahoA5FCGDeftAAsjDkhw2XT6hR3REtpD+dYLVCl9fzHHbegOoDSdRjvBtY86hfqPbMPIvk3S1B/NACa0ytNgeg==
   dependencies:
     "@nuxt/image" "^1.0.0-rc.1"
     "@nuxtjs/color-mode" "^3.3.0"
