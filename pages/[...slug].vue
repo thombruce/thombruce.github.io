@@ -6,5 +6,6 @@ useContentHead(page)
 
 <template lang="pug">
 main.prose.mx-auto
-  ContentDoc
+  ContentDoc(#default="{ doc }")
+    ContentRenderer(v-if="doc.body" :value="doc")
 </template>
