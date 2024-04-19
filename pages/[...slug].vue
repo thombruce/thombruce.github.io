@@ -1,5 +1,4 @@
-<template>
-  <main>
-    <ContentDoc />
-  </main>
+<template lang="pug">
+main
+  ContentDoc
 </template>
