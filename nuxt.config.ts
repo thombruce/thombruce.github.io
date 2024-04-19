@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/content', "@nuxtjs/tailwindcss"],
+  // Nuxt Content
+  content: {
+    documentDriven: true
+  },
   // Tailwind CSS
   tailwindcss: {
     cssPath: ['~/assets/css/tailwind.css', { injectPosition: "first" }],
