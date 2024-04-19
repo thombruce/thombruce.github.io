@@ -1,4 +1,4 @@
 <template lang="pug">
-main
+main.prose.mx-auto
   ContentDoc
 </template>
