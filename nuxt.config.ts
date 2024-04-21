@@ -1,10 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxt/content', "@nuxtjs/tailwindcss"],
-  // Nuxt Content
-  content: {
-    documentDriven: true
+  modules: [
+    "nuxt-lodash",
+    "@nuxtjs/tailwindcss",
+    '@nuxt/content',
+  ],
+  // Lodash
+  lodash: {
+    prefix: "_",
+    upperAfterPrefix: false,
   },
   // Tailwind CSS
   tailwindcss: {
@@ -15,5 +20,9 @@ export default defineNuxtConfig({
     },
     config: {},
     viewer: true,
+  },
+  // Nuxt Content
+  content: {
+    documentDriven: true
   },
 })
