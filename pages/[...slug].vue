@@ -5,7 +5,7 @@ useContentHead(page)
 </script>
 
 <template lang="pug">
-main.prose.mx-auto
-  ContentDoc(#default="{ doc }")
-    ContentRenderer(v-if="doc.body" :value="doc")
+main
+  NuxtLayout(v-if="page._extension == 'fountain'" name="fountain")
+  NuxtLayout(v-else name="default")
 </template>

@@ -1,9 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+import FountainJS from './fountain/module.mjs'
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "nuxt-lodash",
     "@nuxtjs/tailwindcss",
+    FountainJS,
     '@nuxt/content',
   ],
   // Lodash
