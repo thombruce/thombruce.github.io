@@ -1,5 +1,6 @@
 title: Redirecting to Discord...
-navigation: false
+navigation:
+  title: Discord
 head:
   meta:
     - http-equiv: refresh

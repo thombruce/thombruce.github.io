@@ -1,5 +1,6 @@
 title: Redirecting to Twitch...
-navigation: false
+navigation:
+  title: Twitch
 head:
   meta:
     - http-equiv: refresh

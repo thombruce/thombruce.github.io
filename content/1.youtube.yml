@@ -1,5 +1,7 @@
 title: Redirecting to YouTube...
-navigation: false
+navigation:
+  title: YouTube
+# navigation: false
 head:
   meta:
     - http-equiv: refresh
