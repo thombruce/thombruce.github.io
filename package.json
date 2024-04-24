@@ -11,6 +11,5 @@
     "@thombruce/tnt-content": "^0.15.0",
     "nuxt": "^3.11.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
