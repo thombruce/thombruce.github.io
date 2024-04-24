@@ -1,4 +1,4 @@
-# FountainJS
+# Idle
 
 :breadcrumbs
 
