@@ -8,8 +8,9 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@thombruce/tnt-content": "^0.15.0",
-    "nuxt": "^3.11.2"
+    "@thombruce/tnt-content": "^0.15.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nuxt": "^3.11.2"
+  }
 }
