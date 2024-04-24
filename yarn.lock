@@ -1470,12 +1470,18 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thombruce/tnt-content@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.16.0.tgz#74b78efb6ca097c3ef176419c52f3e07a4bf7ff7"
-  integrity sha512-lrPcvbScDLNvNRA0X3AoGdUNtpqcNaZu9rW6k4YtsJe7sqcVYR3+44J0y7E75XjNMST8xSb+jJ3XguD8ziqhqw==
+"@thombruce/fountainjs@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.0.0.tgz#6e543152f4862d917cbaad3cbb390fc2a8ce0ac8"
+  integrity sha512-tDS0ayTcMDqa8M4vEzZhtFwmMGJhn/e9vt1O3zICFMSP4C6UBzoGEMycEN4cMYdiUbyZ2VDJGWtOXXQvG8qLlg==
+
+"@thombruce/tnt-content@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.16.1.tgz#87aa87fa51f1021174d7335391e738d2dee3b5e4"
+  integrity sha512-AprCSh0lopfVNUTW1PxDY1wdMD1oe7RHNauTkv9GvRPnRcs0Yk+BKaIM1O5iouexl4YPyJ3uxK08rvU0VqayoQ==
   dependencies:
     "@nuxt/content" "^2.12.1"
+    "@thombruce/fountainjs" "^2.0.0"
     "@thombruce/tnt" "^0.16.0"
     rss "^1.2.2"
     sitemap "^7.1.1"
