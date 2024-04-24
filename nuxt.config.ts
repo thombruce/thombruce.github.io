@@ -5,4 +5,10 @@ export default defineNuxtConfig({
   extends: [
     '@thombruce/tnt-content'
   ],
+  build: {
+    transpile: [
+      'strip-ansi',
+      'string-width',
+    ],
+  }
 })
