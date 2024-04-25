@@ -1475,13 +1475,12 @@
   resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.0.0.tgz#6e543152f4862d917cbaad3cbb390fc2a8ce0ac8"
   integrity sha512-tDS0ayTcMDqa8M4vEzZhtFwmMGJhn/e9vt1O3zICFMSP4C6UBzoGEMycEN4cMYdiUbyZ2VDJGWtOXXQvG8qLlg==
 
-"@thombruce/tnt-content@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.16.2.tgz#10e18c09b61b4f37c7ea9d461c1ca13ad408e837"
-  integrity sha512-h6p0E7QXPh2PGxqeh2xrTfd7Ua90G9CzUqPTXkdhDy1uQNjPMiUSRFhV5EXYSECgodL1mdOtlRopueLIZrebSw==
+"@thombruce/tnt-content@^0.16.3":
+  version "0.16.3"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.16.3.tgz#f40e6526476b52998aed40ea1ad2baa52a762c7e"
+  integrity sha512-IqosQa9aT3EPmaZq+rbBSn7iZUii3e9rT68SVdTnyOd9dTiE48daSAZwcvXfv0na/U2P0iWkYbynzz3jzlcikw==
   dependencies:
     "@nuxt/content" "^2.12.1"
-    "@thombruce/fountainjs" "^2.0.0"
     "@thombruce/tnt" "^0.16.0"
     rss "^1.2.2"
     sitemap "^7.1.1"

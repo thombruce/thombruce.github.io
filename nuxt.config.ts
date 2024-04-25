@@ -3,6 +3,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: [
+    './layers/fountain',
     '@thombruce/tnt-content'
   ]
 })
