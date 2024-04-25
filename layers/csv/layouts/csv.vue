@@ -5,8 +5,9 @@ ContentDoc(#default="{ doc }")
     table.table
       thead
         tr
-          th {{ doc.body[0] }}
+          th(v-for="cell in doc.body[0].split(',')") {{ cell }}
       tbody
         tr(v-for="(item, index) in doc.body")
-          td(v-if="index") {{ item }}
+          template(v-if="index")
+            td(v-for="cell in item.split(',')") {{ cell }}
 </template>
