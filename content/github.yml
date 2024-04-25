@@ -1,6 +1,7 @@
 title: Redirecting to GitHub...
-navigation:
-  title: GitHub
+# navigation:
+#   title: GitHub
+navigation: false
 head:
   meta:
     - http-equiv: refresh
