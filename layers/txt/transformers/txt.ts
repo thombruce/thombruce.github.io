@@ -6,7 +6,7 @@ export default defineTransformer({
   parse (_id, rawContent: String) {
     return {
       _id,
-      layout: 'toodles',
+      layout: 'txt',
       body: rawContent.trim().split('\n').map(line => line.trim()).sort(),
     }
   }
