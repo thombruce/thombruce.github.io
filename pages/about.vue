@@ -11,23 +11,43 @@ age.value = Math.floor(differenceInMilliseconds / 31557600000)
 <template lang="pug">
 .prose.mx-auto
   h1 About
-  .stats.shadow
-    .stat
-      .stat-figure.text-emerald-500.text-2xl
+
+  h2 General
+  .stats.shadow.w-full
+    .stat.flex-1
+      .stat-figure.text-emerald-500.text-3xl
         Icon(name="fa:calendar")
       .stat-title Age
       .stat-value.text-emerald-500 {{ age }}
       .stat-desc Born in the 80s
-    .stat
-      .stat-figure.text-sky-500.text-2xl
+    .stat.flex-1
+      .stat-figure.text-sky-500.text-3xl
         Icon(name="fa:arrows-v")
       .stat-title Height
       .stat-value.text-sky-500 1.83 m
       .stat-desc That's 6 ft imperial
-    .stat
-      .stat-figure.text-red-600.text-2xl
+    .stat.flex-1
+      .stat-figure.text-red-600.text-3xl
         Icon(name="fa:tint")
       .stat-title Blood Type
       .stat-value.text-red-600 O+
-      .stat-desc 2 time donor
+      .stat-desc 3 time donor
+
+  h2 Programming
+  .stats.shadow.w-full
+    .stat.flex-1
+      .stat-figure.text-5xl
+        Icon(name="skill-icons:javascript")
+      .stat-title JavaScript
+      .stat-value(class="text-[#f7df1e]") 12 y
+    .stat.flex-1
+      .stat-figure.text-5xl
+        Icon(name="skill-icons:ruby")
+      .stat-title Ruby
+      .stat-value(class="text-[#D51F06]") 12 y
+    .stat.flex-1
+      .stat-figure.text-5xl
+        Icon(name="skill-icons:rust")
+      .stat-title Rust
+      .stat-value(class="text-[#F46623]") 1 y
 </template>
