@@ -40,6 +40,12 @@
   icon: skill-icons:nuxtjs-dark
 - name: Tailwind CSS
   icon: skill-icons:tailwindcss-dark
+- name: Heroku
+  icon: skill-icons:heroku
+- name: AWS
+  icon: skill-icons:aws-dark
+- name: Netlify
+  icon: skill-icons:netlify-dark
 - name: WordPress
   icon: skill-icons:wordpress
 - name: Bevy
@@ -50,3 +56,21 @@
   icon: skill-icons:regex-dark
   start: 2012
   competence: .97
+- name: GitHub Actions
+  icon: skill-icons:githubactions-dark
+- name: Docker
+  icon: skill-icons:docker
+- name: Ansible
+  icon: skill-icons:ansible
+- name: Windows
+  icon: skill-icons:windows-dark
+- name: Linux
+  icon: skill-icons:linux-dark
+- name: Mac
+  icon: skill-icons:apple-dark
+- name: Git
+  icon: skill-icons:git
+- name: GitHub
+  icon: skill-icons:github-dark
+- name: GitLab
+  icon: skill-icons:gitlab-dark
