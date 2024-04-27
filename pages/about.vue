@@ -34,20 +34,11 @@ age.value = Math.floor(differenceInMilliseconds / 31557600000)
       .stat-desc 3 time donor
 
   h2 Programming
-  .stats.shadow.w-full
-    .stat.flex-1
-      .stat-figure.text-5xl
-        Icon(name="skill-icons:javascript")
-      .stat-title JavaScript
-      .stat-value(class="text-[#f7df1e]") 12 y
-    .stat.flex-1
-      .stat-figure.text-5xl
-        Icon(name="skill-icons:ruby")
-      .stat-title Ruby
-      .stat-value(class="text-[#D51F06]") 12 y
-    .stat.flex-1
-      .stat-figure.text-5xl
-        Icon(name="skill-icons:rust")
-      .stat-title Rust
-      .stat-value(class="text-[#F46623]") 1 y
+  ContentQuery(path="/_data/skills" find="one")
+    template(#default="{ data }")
+      .grid.grid-cols-3
+        .text-center(v-for="skill in data.body" :key="skill.name")
+          .text-8xl
+            Icon(:name="skill.icon")
+          p {{ skill.name }}
 </template>

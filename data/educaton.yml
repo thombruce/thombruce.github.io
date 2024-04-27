@@ -1,0 +1,19 @@
+- institution: University of Cumbria
+  qualifications:
+    - title: BA (Hons) Film and Television Production
+      grade: 2:1
+      year: 2011
+- institution: Cumbria Institute of the Arts
+  qualifications:
+    - title: NC Media Production
+      grade: DS
+      year: 2008
+- institution: Keswick School
+  qualifications:
+    - title: AS Physics
+    - title: AS Media
+    - title: AS English
+    - title: AS Maths
+    - title: GCSE Physics
+      grade: A*
+      year: 2006
