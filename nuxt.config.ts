@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     '@thombruce/tnt-content'
   ],
   routeRules: {
+    '/discord': { redirect: 'https://discord.gg/SAUagUgTfa' },
+    '/github': { redirect: 'https://github.com/thombruce' },
     '/mastodon': { redirect: 'https://mas.to/@thombruce' },
+    '/twitch': { redirect: 'https://twitch.tv/thombruce' },
+    '/youtube': { redirect: 'https://youtube.com/@thombruce' },
   },
 })
