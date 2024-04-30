@@ -7,5 +7,8 @@ export default defineNuxtConfig({
     './layers/txt',
     './layers/fountain',
     '@thombruce/tnt-content'
-  ]
+  ],
+  routeRules: {
+    '/mastodon': { redirect: 'https://mas.to/@thombruce' },
+  },
 })
