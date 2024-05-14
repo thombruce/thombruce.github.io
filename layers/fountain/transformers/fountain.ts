@@ -6,10 +6,13 @@ export default defineTransformer({
   name: 'transformer',
   extensions: ['.fountain'],
   parse (_id, rawContent: String) {
+    const parsed = fountain.parse(rawContent)
+
     return {
       _id,
       layout: 'fountain',
-      body: fountain.parse(rawContent),
+      title: parsed.title,
+      body: parsed,
     }
   }
 })
