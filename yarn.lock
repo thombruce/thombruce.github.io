@@ -1540,20 +1540,20 @@
   resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.0.0.tgz#6e543152f4862d917cbaad3cbb390fc2a8ce0ac8"
   integrity sha512-tDS0ayTcMDqa8M4vEzZhtFwmMGJhn/e9vt1O3zICFMSP4C6UBzoGEMycEN4cMYdiUbyZ2VDJGWtOXXQvG8qLlg==
 
-"@thombruce/tnt-content@^0.16.4":
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.16.4.tgz#e4809276e2a1cf1c8a75c651097a2674841c26ec"
-  integrity sha512-yew0BjYySxivQSRBbUfh48J8bSLC/NxUIl9uQRvPxQLf5PWlGJC4fZvDzZO6EX+5jlyH90F5X4gthcEfIJFLzg==
+"@thombruce/tnt-content@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.17.1.tgz#0848d87861be4a81ff5ffa9cd00374b62aabf8d7"
+  integrity sha512-CGLyF3uQTt8Qb2ONktBJez+5Tg7n1Z1wreXclL97RWu8uWGDWKraaTgdl5jws2+daMwYzz0qYAXivHK3DLMkTA==
   dependencies:
     "@nuxt/content" "^2.12.1"
-    "@thombruce/tnt" "^0.16.4"
+    "@thombruce/tnt" "^0.17.0"
     rss "^1.2.2"
     sitemap "^7.1.1"
 
-"@thombruce/tnt@^0.16.4":
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.16.4.tgz#8a7983143940323a5f427b54b356ef70531bf77a"
-  integrity sha512-kAQSb6y0DBjDUWDl8d6axJJxPD5Pjczr2BBsnxInhcWgkMGT9eljW4dmC+PS0gwJqNTVuV9IFJgrVqRXLhBZuA==
+"@thombruce/tnt@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.17.0.tgz#9dc89bc63e1e29ab4fdaa244918917888469270f"
+  integrity sha512-2E9xPhkDKLQPB0uwl7HUCOXTdRn/QXyvSfxYJH0ru25szMI2Hw2HTMjlBJRz5jcwtpEsGaWcOzQ/+0duLpZ1yQ==
   dependencies:
     "@nuxt/image" "^1.6.0"
     "@nuxtjs/color-mode" "^3.4.0"
@@ -3282,9 +3282,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.668:
-  version "1.4.768"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.768.tgz#3795bd000ccb8978be1af2d06320b2dac810a372"
-  integrity sha512-z2U3QcvNuxdkk33YV7R1bVMNq7fL23vq3WfO5BHcqrm4TnDGReouBfYKLEFh5umoK1XACjEwp8mmnhXk2EJigw==
+  version "1.4.769"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.769.tgz#c2e82091525e2d9dbcc2b8f66cdb0466ec8ebdf4"
+  integrity sha512-bZu7p623NEA2rHTc9K1vykl57ektSPQYFFqQir8BOYf6EKOB+yIsbFB9Kpm7Cgt6tsLr9sRkqfqSZUw7LP1XxQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -6161,22 +6161,13 @@ pirates@^4.0.1:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.6.tgz#3018ae32ecfcff6c29ba2267cbf21166ac1f36b9"
   integrity sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==
 
-pkg-types@^1.0.3:
+pkg-types@^1.0.3, pkg-types@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-1.1.1.tgz#07b626880749beb607b0c817af63aac1845a73f2"
   integrity sha512-ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==
   dependencies:
     confbox "^0.1.7"
     mlly "^1.7.0"
-    pathe "^1.1.2"
-
-pkg-types@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-1.1.0.tgz#3ec1bf33379030fd0a34c227b6c650e8ea7ca271"
-  integrity sha512-/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==
-  dependencies:
-    confbox "^0.1.7"
-    mlly "^1.6.1"
     pathe "^1.1.2"
 
 portfinder@^1.0.26:
