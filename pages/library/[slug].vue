@@ -3,6 +3,8 @@
   ContentDoc(v-slot="{ doc }")
     article
       h1 {{ doc.title }}
+      Breadcrumbs
+      TagList(taxonomy="franchise")
       template(v-if="doc.mods")
         h2 Mods
         ul
