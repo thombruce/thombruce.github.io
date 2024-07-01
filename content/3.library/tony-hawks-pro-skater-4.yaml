@@ -1,5 +1,0 @@
-title: Tony Hawk's Pro Skater 4
-franchise: Tony Hawk's # TODO: Enable use of apostrophe in tags; is this possible? Ideal solution would simply ignore the apostrophe in matching.
-mods:
-  - title: PARTYMOD
-    url: https://github.com/PARTYMANX/partymod-thps4
