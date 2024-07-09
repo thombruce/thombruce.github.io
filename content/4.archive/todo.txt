@@ -1,4 +1,0 @@
-Render todo items with checkboxes
-Add support for styling +project @context and tag:custom
-Add support for styling non-standard #tags
-x Add todo view and parser as Nuxt Layer
