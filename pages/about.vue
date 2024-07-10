@@ -5,7 +5,7 @@ const { data: profile } = await useAsyncData('about', () => queryContent('/_data
 </script>
 
 <template lang="pug">
-.prose.mx-auto
+.prose.max-w-none
   h1 About
 
   h2 General

@@ -1,6 +1,6 @@
 <template lang="pug">
 ContentDoc(#default="{ doc }")
-  .prose.mx-auto
+  .prose.max-w-none
     h1 {{ doc.body.title }}
     Breadcrumbs
   .screenplay
