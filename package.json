@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@thombruce/fountainjs": "^2.0.0",
-    "@thombruce/tnt-content": "^0.19.0-alpha.0"
+    "@thombruce/tnt-content": "^0.19.0-alpha.1"
   },
   "devDependencies": {
     "nuxt": "^3.11.2"
