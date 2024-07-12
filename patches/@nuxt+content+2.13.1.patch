@@ -1,0 +1,13 @@
+diff --git a/node_modules/@nuxt/content/dist/runtime/server/search.js b/node_modules/@nuxt/content/dist/runtime/server/search.js
+index 46e1c32..8b9d4db 100644
+--- a/node_modules/@nuxt/content/dist/runtime/server/search.js
++++ b/node_modules/@nuxt/content/dist/runtime/server/search.js
+@@ -14,7 +14,7 @@ export function splitPageIntoSections(page, { ignoredTags }) {
+     id: path,
+     title: page.title || "",
+     titles: [],
+-    content: page.description.trim() || "",
++    content: (page.description || '').trim(),
+     level: 1
+   }];
+   if (!page?.body?.children) {
