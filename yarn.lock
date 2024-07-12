@@ -1212,6 +1212,16 @@
     vite-plugin-checker "^0.6.4"
     vue-bundle-renderer "^2.0.0"
 
+"@nuxtjs/color-mode@^3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-3.4.2.tgz#0dfd05907be3bea05c6397f0f0b00e8145a2795a"
+  integrity sha512-6A+lDP8R6fFXc1Ip5tDepKq9MJW6oxbRlz1plvW52yacnpeDFXv5S5rDS0ax31AuSFUPlgzHymFSdjcylBwZ6w==
+  dependencies:
+    "@nuxt/kit" "^3.12.2"
+    pathe "^1.1.2"
+    pkg-types "^1.1.1"
+    semver "^7.6.2"
+
 "@nuxtjs/i18n@^8.3.1":
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/i18n/-/i18n-8.3.1.tgz#bfa6c92991f842ec4df16573dd5cb210907d18be"
@@ -1649,6 +1659,13 @@
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.2.tgz#821f8442f4175d8f0467b9daf26e3a18e2d02af2"
   integrity sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==
 
+"@tailwindcss/forms@^0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.7.tgz#db5421f062a757b5f828bc9286ba626c6685e821"
+  integrity sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==
+  dependencies:
+    mini-svg-data-uri "^1.2.3"
+
 "@tailwindcss/typography@^0.5.12":
   version "0.5.13"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.5.13.tgz#cd788a4fa4d0ca2506e242d512f377b22c1f7932"
@@ -1664,24 +1681,26 @@
   resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.0.0.tgz#6e543152f4862d917cbaad3cbb390fc2a8ce0ac8"
   integrity sha512-tDS0ayTcMDqa8M4vEzZhtFwmMGJhn/e9vt1O3zICFMSP4C6UBzoGEMycEN4cMYdiUbyZ2VDJGWtOXXQvG8qLlg==
 
-"@thombruce/tnt-content@^0.19.0-alpha.1":
-  version "0.19.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.19.0-alpha.1.tgz#a37d22659b22bf5be0795c8e5a1f279e2fae19d9"
-  integrity sha512-U+GuMUpCyuQOk2aW9kljP7CExnRX/z03bq6YPZvS0km4n8LBDWRte7SwBFmg9qvbsBPhVs2VxC6GJMKpHhaIdQ==
+"@thombruce/tnt-content@^0.19.0-alpha.2":
+  version "0.19.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.19.0-alpha.2.tgz#4cd7d08da84a586baf8fa2159a4c87f60220536f"
+  integrity sha512-fI6L5Y5bmYQosJUgANy9IZ5IMen7kb0InocsxSnIJpMP5LynSFg9wLREq+2cDGbXWosfvCHvMdkRoxnt8FIpNA==
   dependencies:
     "@nuxt/content" "^2.12.1"
-    "@thombruce/tnt" "^0.19.0-alpha.1"
+    "@thombruce/tnt" "^0.19.0-alpha.2"
     rss "^1.2.2"
     sitemap "^7.1.1"
 
-"@thombruce/tnt@^0.19.0-alpha.1":
-  version "0.19.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.19.0-alpha.1.tgz#94bd8fe6eaa19421ca82a0ac18cb67519c61b3ce"
-  integrity sha512-Jm9ByXyV54DrQkkQ9zrFA24TP2fMbkiWUEeP/OHmmlR73mqx8fxAhA59ah5EosKzWcA+jqKJtYALLu7IHNUIQQ==
+"@thombruce/tnt@^0.19.0-alpha.2":
+  version "0.19.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.19.0-alpha.2.tgz#1ecfa461daa26c5e9ebb21c112253051fabbb957"
+  integrity sha512-DYSh3AKWCky2MbPuWOiW0Q7u3x0r5Z2jMy28As8fQUnw5vzxtvH2OUR3TUM4fzC9l3161dsGKZJ8QatpDY2ljQ==
   dependencies:
     "@nuxt/image" "^1.6.0"
+    "@nuxtjs/color-mode" "^3.4.2"
     "@nuxtjs/i18n" "^8.3.1"
     "@nuxtjs/tailwindcss" "^6.12.0"
+    "@tailwindcss/forms" "^0.5.7"
     "@tailwindcss/typography" "^0.5.12"
     "@vueuse/core" "^10.9.0"
     "@vueuse/nuxt" "^10.9.0"
@@ -5517,6 +5536,11 @@ mimic-response@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
+
+mini-svg-data-uri@^1.2.3:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz#8ab0aabcdf8c29ad5693ca595af19dd2ead09939"
+  integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
 
 minimatch@^3.0.4, minimatch@^3.1.1:
   version "3.1.2"
