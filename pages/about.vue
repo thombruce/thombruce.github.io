@@ -11,27 +11,30 @@ const { data: profile } = await useAsyncData('about', () => queryContent('/_data
   Breadcrumbs
 
   h2 General
-  .stats.shadow.w-full
-    .stat.flex-1
-      .stat-figure.text-emerald-500.text-3xl
-        Icon(name="fa:calendar")
-      .stat-title Age
-      .stat-value.text-emerald-500 {{ age(profile.dob) }}
-      .stat-desc Born in the 80s
-    .stat.flex-1
-      .stat-figure.text-sky-500.text-3xl
-        Icon(name="fa:arrows-v")
-      .stat-title Height
-      .stat-value.text-sky-500 {{ profile.height }} m
-      .stat-desc That's 6 ft imperial
-    .stat.flex-1
-      .stat-figure.text-red-600.text-3xl
-        Icon(name="fa:tint")
-      .stat-title Blood Type
-      .stat-value.text-red-600 {{ profile.blood }}
-      .stat-desc 3 time donor
 
-  h2 Programming
+  p Hey you! Welcome. I'm still working on my about page. In the meantime, here's some irrelevant data you really don't care about:
+
+  .flex
+    .flex-1.text-center
+      .text-emerald-600.text-4xl
+        Icon(name="fa:calendar")
+      strong Age
+      .font-bold.text-4xl.text-emerald-500 {{ age(profile.dob) }}
+      em Born in the 80s
+    .flex-1.text-center
+      .text-sky-600.text-4xl
+        Icon(name="fa:arrows-v")
+      strong Height
+      .font-bold.text-4xl.text-sky-500 {{ profile.height }} m
+      em That's 6 ft imperial
+    .flex-1.text-center
+      .text-red-700.text-4xl
+        Icon(name="fa:tint")
+      strong Blood Type
+      .font-bold.text-4xl.text-red-600 {{ profile.blood }}
+      em 3 time donor
+
+  h2 Programming Skills
   ContentQuery(path="/_data/skills" find="one")
     template(#default="{ data }")
       .grid.grid-cols-3
