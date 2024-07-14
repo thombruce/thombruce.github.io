@@ -8,6 +8,8 @@ const { data: profile } = await useAsyncData('about', () => queryContent('/_data
 .prose.max-w-none
   h1 About
 
+  Breadcrumbs
+
   h2 General
   .stats.shadow.w-full
     .stat.flex-1

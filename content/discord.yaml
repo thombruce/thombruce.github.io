@@ -1,0 +1,10 @@
+title: Discord
+navigation: false
+head:
+  title: Redirecting to Discord...
+  meta:
+    - http-equiv: refresh
+      content: 0; URL=https://discord.gg/SAUagUgTfa
+  link:
+    - rel: canonical
+      href: https://discord.gg/SAUagUgTfa

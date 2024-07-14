@@ -1,0 +1,10 @@
+title: Mastodon
+navigation: false
+head:
+  title: Redirecting to Mastodon...
+  meta:
+    - http-equiv: refresh
+      content: 0; URL=https://mas.to/@thombruce
+  link:
+    - rel: canonical
+      href: https://mas.to/@thombruce

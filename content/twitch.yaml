@@ -1,0 +1,10 @@
+title: Twitch
+navigation: false
+head:
+  title: Redirecting to Twitch...
+  meta:
+    - http-equiv: refresh
+      content: 0; URL=https://twitch.tv/thombruce
+  link:
+    - rel: canonical
+      href: https://twitch.tv/thombruce
