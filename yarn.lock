@@ -1733,19 +1733,19 @@
   integrity sha512-3DhK4FT3Ex1VeRxpEbQzYDFTKZ3PY5SN7HdFTYG5s0iyMgJuPOeaCl/fgLZAOoNLw6bbwwd5O+12ctydi4IGMA==
 
 "@thombruce/tnt-content@^0.20.0":
-  version "0.20.4"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.20.4.tgz#62b17b5637d2c20461b55796d2d8b0d72f4ffb79"
-  integrity sha512-BQnm8CDXPR0Z6xLO7fyBcAg5rCom8eqJEKGjkb9Ot/vBRkaXZihKZZCz4jnBub/At8KzmVfch2TkZkCzePM0SQ==
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.20.5.tgz#9bb846d71da05ae0168aa81061768e3a1bf0f868"
+  integrity sha512-Rf2ZMc/0funItSiZHqRLHleWe+7WBlumvg7fYvIcnnyc9HSHO1sQ3WwXNpL5naKZmjA+yTcWvAUADLbvVVPbMA==
   dependencies:
     "@nuxt/content" "npm:@nuxt/content-edge@latest"
-    "@thombruce/tnt" "^0.20.1"
+    "@thombruce/tnt" "^0.20.5"
     rss "^1.2.2"
     sitemap "^7.1.1"
 
-"@thombruce/tnt@^0.20.1":
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.20.1.tgz#04e9f932d785f681ecf277abe5354125241b1f0c"
-  integrity sha512-/oFaoVMEgHTjFg0pjZUPSF+sz94J7ll9LTKewE7xFyl/jPRaHJ86Bp1j5mIJAXKsyI+yo5DUONphz0U5gNgbDA==
+"@thombruce/tnt@^0.20.5":
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.20.5.tgz#2e29b2bcfa87378b84d382f1aae5df8089fba93b"
+  integrity sha512-BjmiiBtG+xvEHVKCYlIAnkwnLA/pi65fJgjeG/QpGXgHOc2e4eHFDBRmjtPhLLTcJhmgruVwm+hqpkAESU9suQ==
   dependencies:
     "@nuxt/image" "^1.6.0"
     "@nuxtjs/color-mode" "^3.4.2"

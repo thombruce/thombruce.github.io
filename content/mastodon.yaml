@@ -1,4 +1,5 @@
 title: Mastodon
+icon: fa-brands:mastodon
 navigation: false
 layout: redirect
 link: https://mas.to/@thombruce
