@@ -1,10 +1,4 @@
 title: GitHub
 navigation: false
-head:
-  title: Redirecting to GitHub...
-  meta:
-    - http-equiv: refresh
-      content: 0; URL=https://github.com/thombruce
-  link:
-    - rel: canonical
-      href: https://github.com/thombruce
+layout: redirect
+link: https://github.com/thombruce

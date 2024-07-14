@@ -1,10 +1,4 @@
 title: YouTube
 navigation: false
-head:
-  title: Redirecting to YouTube...
-  meta:
-    - http-equiv: refresh
-      content: 0; URL=https://youtube.com/@thombruce
-  link:
-    - rel: canonical
-      href: https://youtube.com/@thombruce
+layout: redirect
+link: https://youtube.com/@thombruce
