@@ -17,7 +17,7 @@ ContentList(:query="query")
   template(#default="{ list }")
     ul.mb-4.space-x-4
       li.inline(v-for="article in list" :key="article._path")
-        NuxtLink(:to="article._path" :title="article.title")
+        NuxtLink(:to="article._path" :title="article.title" rel="me")
           Icon(:name="article.icon" size="2em")
           span.sr-only {{ article.title }}
   template(#not-found)
