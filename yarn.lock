@@ -1733,9 +1733,9 @@
   integrity sha512-3DhK4FT3Ex1VeRxpEbQzYDFTKZ3PY5SN7HdFTYG5s0iyMgJuPOeaCl/fgLZAOoNLw6bbwwd5O+12ctydi4IGMA==
 
 "@thombruce/tnt-content@^0.20.0":
-  version "0.20.3"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.20.3.tgz#b480a527adb02263d4fa5f4969cb04658d5d378b"
-  integrity sha512-rTlaUWtcAerJOZszaRmqflVuBhAT8RfoUyJWwttSvk4HVy/1Yg/3FjcarrdcQa+dA/gllIOf8Fu3Stmuqr5MBQ==
+  version "0.20.4"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.20.4.tgz#62b17b5637d2c20461b55796d2d8b0d72f4ffb79"
+  integrity sha512-BQnm8CDXPR0Z6xLO7fyBcAg5rCom8eqJEKGjkb9Ot/vBRkaXZihKZZCz4jnBub/At8KzmVfch2TkZkCzePM0SQ==
   dependencies:
     "@nuxt/content" "npm:@nuxt/content-edge@latest"
     "@thombruce/tnt" "^0.20.1"
