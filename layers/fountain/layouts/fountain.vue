@@ -1,6 +1,6 @@
 <template lang="pug">
-ContentDoc(#default="{ doc }")
-  .prose.max-w-none
+.prose.max-w-none
+  ContentDoc(#default="{ doc }")
     h1 {{ doc.body.title }}
     Breadcrumbs
   .screenplay
