@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-const { copyright } = useAppConfig()
+
 const query: QueryBuilderParams = {
   path: '/',
   where: [{
     navigation: { $eq: false },
     _dir: '',
     layout: { $eq: 'redirect' },
-    link: { $exists: true }
+    link: { $exists: true },
   }]
 }
 </script>
@@ -17,7 +17,7 @@ ContentList(:query="query")
   template(#default="{ list }")
     ul.mb-4.space-x-4
       li.inline(v-for="article in list" :key="article._path")
-        NuxtLink(:to="article.link" :title="article.title" rel="me")
+        NuxtLink(:to="article.link" :title="article.title" :rel="article.me ? 'me' : undefined")
           Icon(:name="article.icon" size="2em")
           span.sr-only {{ article.title }}
   template(#not-found)

@@ -3,3 +3,4 @@ icon: fa-brands:youtube
 navigation: false
 layout: redirect
 link: https://youtube.com/@thombruce
+me: true

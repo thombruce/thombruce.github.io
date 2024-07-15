@@ -3,3 +3,4 @@ icon: fa-brands:twitch
 navigation: false
 layout: redirect
 link: https://twitch.tv/thombruce
+me: true

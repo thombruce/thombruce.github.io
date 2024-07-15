@@ -3,3 +3,4 @@ icon: fa-brands:github
 navigation: false
 layout: redirect
 link: https://github.com/thombruce
+me: true
