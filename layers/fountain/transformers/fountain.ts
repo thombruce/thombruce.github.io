@@ -12,6 +12,7 @@ export default defineTransformer({
       _id,
       layout: 'fountain',
       title: parsed.title,
+      date: parsed.date,
       body: parsed,
     }
   }
