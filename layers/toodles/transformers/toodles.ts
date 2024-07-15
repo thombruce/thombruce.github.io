@@ -2,12 +2,12 @@ import { defineTransformer } from '@nuxt/content/transformers'
 
 export default defineTransformer({
   name: 'transformer',
-  extensions: ['.txt'],
+  extensions: ['.txt', '.todo', '.shop', '.list'],
   parse (_id, rawContent: String) {
     return {
       _id,
-      layout: 'txt',
-      body: rawContent.trim().split('\n').map(line => line.trim()).sort(),
+      layout: 'toodles',
+      body: rawContent.trim().split('\n').map(line => line.trim()),
     }
   }
 })

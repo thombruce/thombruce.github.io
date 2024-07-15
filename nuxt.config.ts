@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: [
     './layers/csv',
-    './layers/txt',
+    './layers/toodles',
     './layers/fountain',
     '@thombruce/tnt-content'
   ],
