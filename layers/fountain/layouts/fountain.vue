@@ -1,9 +1,10 @@
 <template lang="pug">
-.prose.max-w-none
+div
   ContentDoc(#default="{ doc }")
-    h1 {{ doc.body.title }}
-    Breadcrumbs
-  .screenplay
-    .title-page(v-html="doc.body.html.title_page")
-    .script(v-html="doc.body.html.script")
+    .prose.max-w-none
+      h1 {{ doc.body.title }}
+      Breadcrumbs
+    .screenplay
+      .title-page(v-html="doc.body.html.title_page")
+      .script(v-html="doc.body.html.script")
 </template>
