@@ -2,6 +2,6 @@
 .prose.max-w-none
   ContentDoc(#default="{ doc }")
     h1 {{ doc.title }}
-    ul
-      li(v-for="item in doc.body") {{ item }}
+    .not-prose
+      TntCheckbox(v-for="item in doc.body" :label="item" disabled)
 </template>
