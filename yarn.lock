@@ -908,9 +908,9 @@
     which "^4.0.0"
 
 "@nuxt/content@npm:@nuxt/content-edge@latest":
-  version "2.13.1-28684090.0ad31f4"
-  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.13.1-28684090.0ad31f4.tgz#b4735ddacbacd197e2cda1841057ad58e8e4f797"
-  integrity sha512-PU2DF50TC4ntbowC0OsIMIeDJ3dti+tneOmiuxrWtYKq6zBxhQXHTlxm1lX4tvdtxiZgO+KQFLiVFN76kw5tlA==
+  version "2.13.1-28685323.00f3fbf"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.13.1-28685323.00f3fbf.tgz#48d8efd8af1c01a5070185091d94d9ecc9189ec8"
+  integrity sha512-p+EgrCJ0kw5vMUauxwrn3mpQRnyqJJhnAAig2XD2P6XKmatmeHKSKWBxTnULLdBWQnbpC52EVG4/NP8lwdGSZQ==
   dependencies:
     "@nuxt/kit" "^3.12.3"
     "@nuxtjs/mdc" "^0.8.3"
@@ -1627,9 +1627,9 @@
   integrity sha512-3DhK4FT3Ex1VeRxpEbQzYDFTKZ3PY5SN7HdFTYG5s0iyMgJuPOeaCl/fgLZAOoNLw6bbwwd5O+12ctydi4IGMA==
 
 "@thombruce/tnt-content@^0.22.0":
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.22.2.tgz#ae0aca9d20927b21b940f2a6fc4913227c8564b4"
-  integrity sha512-O5p65TMhsHtS1MCnkuoceMx1bEG70+C4HsyhIT2THbqYkYhylnEz6e8BI21BNFSKmN4aqO6p/Yx+Zs9pMIVCvg==
+  version "0.22.3"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.22.3.tgz#0710274e6379147af55e9bf2e4a5aa20aa94c084"
+  integrity sha512-/gQ7YHlrbP7PEolcGyVGLOwPf5Hp3mt79w4+PPYTfFoET93ExmFQx2kB6q9TwKyhK0El6iltdg9I1X2rDhP5ew==
   dependencies:
     "@nuxt/content" "npm:@nuxt/content-edge@latest"
     "@thombruce/tnt" "^0.22.2"
@@ -5508,9 +5508,9 @@ minipass@^7.0.2, minipass@^7.0.3:
   integrity sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==
 
 minisearch@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/minisearch/-/minisearch-7.0.0.tgz#726410c5ac4400b67cde8113efbd69b035bff7f5"
-  integrity sha512-0OIJ3hUE+YBJNruDCqbTMFmk/IoB1CpZzuGfl11khFIel66ew9UoLF/+gfq3bdyrneqr3P7BTjFZApUbmk+9Dg==
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/minisearch/-/minisearch-7.0.1.tgz#c1f551580715063a37ca58e480be8574a86e919b"
+  integrity sha512-xLeX/AwTJLzgBF2/bdUI7MEePwXtzaLExkRwu8YFGfLDwSe06KYkplqPodLANsqvfc5Ks/r5ItFUSjIp7+9xtw==
 
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
