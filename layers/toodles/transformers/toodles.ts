@@ -6,7 +6,7 @@ import { default as _uniqueId } from 'lodash/uniqueId'
 const STATE_REGEX = new RegExp(/(?<=^\s*)([!Xx~-])(?= )/gm)
 const PRIORITY_REGEX = new RegExp(/(?<=^\s*(?:[!Xx~-] )?)(\([A-Z]\))\B/gm)
 const DATE_REGEX = new RegExp(/(?<=^\s*(?:[!Xx~-] )?(?:\([A-Z]\) )?(?:\d{4}-\d{2}-\d{2} ){0,2})(\d{4}-\d{2}-\d{2})\b/gm)
-const PRICE_REGEX = new RegExp(/(?<=^\s*(?:[!Xx~-] )?(?:\([A-Z]\) )?(?:\d{4}-\d{2}-\d{2} ){0,3})(?:[$£€]\d*[.,]?\d{1,2}-)?([$£€]\d*[.,]?\d{1,2})(?= )/gm)
+const PRICE_REGEX = new RegExp(/(?<=^\s*(?:[!Xx~-] )?(?:\([A-Z]\) )?(?:\d{4}-\d{2}-\d{2} ){0,3})((?:[$£€]\d*[.,]?\d{1,2}-)?[$£€]\d*[.,]?\d{1,2})(?= )/gm)
 
 const CONTEXT_REGEX = new RegExp(/\B(\@\w+)/g)
 const PROJECT_REGEX = new RegExp(/\B(\+\w+)/g)
