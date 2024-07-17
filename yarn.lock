@@ -1626,20 +1626,20 @@
   resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.0.1.tgz#6037daecf957676e5cf2bd04c170f7e917e68b86"
   integrity sha512-3DhK4FT3Ex1VeRxpEbQzYDFTKZ3PY5SN7HdFTYG5s0iyMgJuPOeaCl/fgLZAOoNLw6bbwwd5O+12ctydi4IGMA==
 
-"@thombruce/tnt-content@^0.22.0":
-  version "0.22.3"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.22.3.tgz#0710274e6379147af55e9bf2e4a5aa20aa94c084"
-  integrity sha512-/gQ7YHlrbP7PEolcGyVGLOwPf5Hp3mt79w4+PPYTfFoET93ExmFQx2kB6q9TwKyhK0El6iltdg9I1X2rDhP5ew==
+"@thombruce/tnt-content@^0.23.0":
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.23.0.tgz#1d9a816d2026040c617e1ab7cf9ec40d509be904"
+  integrity sha512-0wK29Ku67yb8AujT1MNQd01bSYvfuSMNIc8s6GaHsY6ATfb5Htytv1FrQQKeXzgYsJsap7ZV5nPzWLRvlNNZwA==
   dependencies:
     "@nuxt/content" "npm:@nuxt/content-edge@latest"
-    "@thombruce/tnt" "^0.22.2"
+    "@thombruce/tnt" "^0.23.0"
     rss "^1.2.2"
     sitemap "^7.1.1"
 
-"@thombruce/tnt@^0.22.2":
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.22.2.tgz#db51531e20d03e13609e399f6f3fb899cb2ff748"
-  integrity sha512-v5oZQNNsDgogVP8q0/jG2lBso/0+MzWSwC7Q9v1wIn529emTYBZ0jWYfOkWZmh/Q17aQPCBq8LJZRoElafXQLg==
+"@thombruce/tnt@^0.23.0":
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt/-/tnt-0.23.0.tgz#28169caed9dbcccb2bd5bfde54f1a6beb0863db7"
+  integrity sha512-XI6XhNujIt7Ljdk0k6XhzUaEfvEFE7n6FdF53uM6JmqaeMVAvZw9AgzeBYLexIRHhB2OTjxJ5pkyXNT56gJxlg==
   dependencies:
     "@nuxt/image" "^1.6.0"
     "@nuxtjs/color-mode" "^3.4.2"
