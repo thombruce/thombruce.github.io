@@ -15,4 +15,7 @@ export default defineNuxtConfig({
     '/twitch': { redirect: 'https://twitch.tv/thombruce' },
     '/youtube': { redirect: 'https://youtube.com/@thombruce' },
   },
+  tailwindcss: {
+    cssPath: './assets/css/thombruce.css',
+  },
 })
