@@ -1,11 +1,14 @@
-import { defineNuxtModule } from '@nuxt/kit'
+/** @type {import('tailwindcss').Config} */
 
 const colors = require('tailwindcss/colors')
 
-export default defineNuxtModule({
-  setup (options, nuxt) {
-    nuxt.hook('tailwindcss:config', function (tailwindConfig) {
-      Object.assign(tailwindConfig.theme.extend.colors, {
+export default {
+  presets: [
+    require('@thombruce/tnt/tailwind.preset'),
+  ],
+  theme: {
+    extend: {
+      colors: {
         primary: {...colors.cyan, ...{
           DEFAULT: colors.cyan['500'],
           hover: colors.cyan['600'],
@@ -18,7 +21,7 @@ export default defineNuxtModule({
             hover: colors.cyan['400'],
           },
         }},
-      })
-    })
-  }
-})
+      },
+    },
+  },
+}
