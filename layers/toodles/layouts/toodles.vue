@@ -10,7 +10,7 @@ const containerClass = (item) => {
 
 <template lang="pug">
 .prose.max-w-none
-  ContentDoc(#default="{ doc }")
+  ContentDoc(v-slot="{ doc }")
     h1 {{ doc.title }}
     Breadcrumbs
     div(
@@ -26,7 +26,7 @@ const containerClass = (item) => {
         )
       label(:for="item.id")
         MDC(:value="item.text" tag="span" unwrap="p" class="toodles-mdc")
-    PrevNext
+  PrevNext
 </template>
 
 <style lang="postcss">

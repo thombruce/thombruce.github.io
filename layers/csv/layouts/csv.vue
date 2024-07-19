@@ -1,7 +1,8 @@
 <template lang="pug">
 .prose.max-w-none
-  ContentDoc(#default="{ doc }")
+  ContentDoc(v-slot="{ doc }")
     h1 {{ doc.title }}
+    Breadcrumbs
     table.table
       thead
         tr
@@ -10,4 +11,5 @@
         tr(v-for="(item, index) in doc.body")
           template(v-if="index")
             td(v-for="cell in item.split(',')") {{ cell }}
+  PrevNext
 </template>
