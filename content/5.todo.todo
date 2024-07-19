@@ -1,4 +1,5 @@
 x (A) 2024-07-15 Update #Umami to run off fork instead of own repo
+! (A) 2024-07-19 Reattempt `vsce publish` of +Toodles #VSCode v0.0.10 when service back online
 (A) 2024-07-16 Add cookie control features to +TNT
 (B) 2024-07-16 Add privacy.md to +ThomBruceDotCom /content
 (B) 2024-07-15 Install #Umami analytics on +ThomBruceDotCom

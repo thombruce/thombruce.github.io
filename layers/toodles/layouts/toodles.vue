@@ -13,6 +13,7 @@
             type="checkbox"
             :checked="item.state === 'x'"
             disabled
+            :class="item.indent ? 'ml-8' : ''"
           )
         label(:for="item.id" v-html="item.text")
 </template>
