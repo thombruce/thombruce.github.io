@@ -6,6 +6,7 @@ export default defineAppConfig({
   //       - Write a genuinely worth publishing piece of blog content
   // rss: '/blog',
   copyright: `Copyright © 1989 - ${new Date().getFullYear()} Thom Bruce`,
+  layout: 'article',
   taxonomies: [
     'franchise'
   ]

@@ -12,6 +12,7 @@ const containerClass = (item) => {
 .prose.max-w-none
   ContentDoc(#default="{ doc }")
     h1 {{ doc.title }}
+    Breadcrumbs
     div(
       v-for="item in doc.body"
       :class="containerClass(item)"
@@ -25,6 +26,7 @@ const containerClass = (item) => {
         )
       label(:for="item.id")
         MDC(:value="item.text" tag="span" unwrap="p" class="toodles-mdc")
+    PrevNext
 </template>
 
 <style lang="postcss">

@@ -7,4 +7,5 @@ div
     .screenplay
       .title-page(v-html="doc.body.html.title_page")
       .script(v-html="doc.body.html.script")
+    PrevNext
 </template>
