@@ -51,11 +51,19 @@ const containerClass = (item) => {
   text-decoration-skip-ink: none;
 }
 
-.toodles-mdc span:is(.toodles-priority) + time::before,
-.toodles-mdc time + time::before,
-.toodles-mdc time + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier)::before,
-.toodles-mdc span:is(.toodles-priority, .toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag) + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier)::before {
-  content: ' '
+.toodles-mdc span:is(.toodles-priority) + time,
+.toodles-mdc time + time,
+.toodles-mdc time + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier),
+.toodles-mdc time + :is(strong, em, a, code),
+.toodles-mdc :is(strong, em, a, code) + :is(strong, em, a, code),
+.toodles-mdc :is(strong, em, a, code) + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier),
+.toodles-mdc span:is(.toodles-priority, .toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag) + :is(strong, em, a, code),
+.toodles-mdc span:is(.toodles-priority, .toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag) + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier) {
+  /*
+    The MDC component doesn't respect whitespace between HTML or parsed Markdown tags.
+    We need to add a little margin to replace the space that's lost.
+  */
+  @apply ml-0.5;
 }
 
 .toodles-priority {

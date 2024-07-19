@@ -11,3 +11,13 @@ x (A) 2024-07-16 2024-07-15 Rework THIS .txt parser/decorator to +Toodles spec
 2024-07-15 Start work on +Dynamite CMS
 2024-07-16 Start work on +Carriage (is that a good name? really?) screenplay writer/editor
 2024-07-16 Start work on +Inkpot novel writer/editor
+x 2024-07-19 Add **full** _inline_ [Markdown](https://daringfireball.net/projects/markdown/) `support`
+    x 2024-07-19 2024-07-19 Support **bold** text
+    x 2024-07-19 2024-07-19 Support _emphasised_ text
+    x 2024-07-19 2024-07-19 Support [Markdown](https://daringfireball.net/projects/markdown/) links
+    x 2024-07-19 2024-07-19 Including [Mailto](mailto:alan@example.com) ones
+    x 2024-07-19 2024-07-19 Also support lt/gt links: <https://example.com>
+    x 2024-07-19 2024-07-19 Including <mailto:alan@example.com> ones
+    x 2024-07-19 2024-07-19 Also support naked links: https://example.com (appears to be working but is actually still wrapped in a `.toodles-tag`)
+    x 2024-07-19 2024-07-19 Also support `code tags` and `` `advanced code tags` ``
+    x 2024-07-19 2024-07-19 Address stripping of ` ` between various tags in todo items

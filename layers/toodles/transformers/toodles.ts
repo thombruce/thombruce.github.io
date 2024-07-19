@@ -12,7 +12,7 @@ const PRICE_REGEX = new RegExp(/(?<=^ *(?:[!Xx~-] )?(?:\([A-Z]\) )?(?:\d{4}-\d{2
 const CONTEXT_REGEX = new RegExp(/\B(\@\w+)/g)
 const PROJECT_REGEX = new RegExp(/\B(\+\w+)/g)
 const HASHTAG_REGEX = new RegExp(/\B(\#\w+)/g)
-const TAG_REGEX = new RegExp(/\b(\w+:\S+)/g) // TODO: Allow additional characters
+const TAG_REGEX = new RegExp(/(?<!<|\]\()\b(\w+(?<!https?):\S+)/g) // TODO: Allow additional characters
 
 const MULTIPLIER_REGEX = new RegExp(/\b(x\d+)$/gm)
 
