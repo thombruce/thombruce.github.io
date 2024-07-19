@@ -1,17 +1,17 @@
-x (A) 2024-07-16 2024-07-15 Update #Umami to run off fork instead of own repo
-x (A) 2024-07-19 2024-07-19 Reattempt `vsce publish` of +Toodles #VSCode v0.0.10 when service back online
 (A) 2024-07-16 Add cookie control features to +TNT
-(B) 2024-07-16 Add privacy.md to +ThomBruceDotCom /content
 (B) 2024-07-15 Install #Umami analytics on +ThomBruceDotCom
+(B) 2024-07-16 Add privacy.md to +ThomBruceDotCom /content
 2024-07-15 Add analytics link to +ThomBruceDotCom footer
-2024-07-16 Replace +TNT form components with #FormKit
 2024-07-15 Rebuild +Toodles using +TNT (Thom's Nuxt Template)
-x (A) 2024-07-16 2024-07-15 Rework THIS .txt parser/decorator to +Toodles spec
 2024-07-15 Replace #Cusdis comments engine with +Nice
 2024-07-15 Start work on +Dynamite CMS
+2024-07-16 Replace +TNT form components with #FormKit
 2024-07-16 Start work on +Carriage (is that a good name? really?) screenplay writer/editor
 2024-07-16 Start work on +Inkpot novel writer/editor
-x 2024-07-19 Add **full** _inline_ [Markdown](https://daringfireball.net/projects/markdown/) `support`
+x (A) 2024-07-16 2024-07-15 Update #Umami to run off fork instead of own repo
+x (A) 2024-07-16 2024-07-15 Rework THIS .txt parser/decorator to +Toodles spec
+x (A) 2024-07-19 2024-07-19 Reattempt `vsce publish` of +Toodles #VSCode v0.0.10 when service back online
+x 2024-07-19 2024-07-19 Add **full** _inline_ [Markdown](https://daringfireball.net/projects/markdown/) `support`
     x 2024-07-19 2024-07-19 Support **bold** text
     x 2024-07-19 2024-07-19 Support _emphasised_ text
     x 2024-07-19 2024-07-19 Support [Markdown](https://daringfireball.net/projects/markdown/) links
