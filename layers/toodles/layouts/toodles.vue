@@ -47,7 +47,6 @@ const containerClass = (item) => {
     */
     underline
     decoration-2
-    /* TODO: underline-offset-[] not working on mobile? */
     underline-offset-[-0.4rem];
   text-decoration-skip-ink: none;
 }
