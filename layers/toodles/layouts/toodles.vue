@@ -2,20 +2,20 @@
 .prose.max-w-none
   ContentDoc(#default="{ doc }")
     h1 {{ doc.title }}
-    .not-prose
-      div(
-        v-for="item in doc.body"
-        :class="item.state === '!' ? 'toodles-focus' : ['x', 'X'].includes(item.state) ? 'toodles-done' : ''"
-      )
-        span.mr-3
-          input(
-            :id="item.id"
-            type="checkbox"
-            :checked="item.state === 'x'"
-            disabled
-            :class="item.indent ? 'ml-8' : ''"
-          )
-        label(:for="item.id" v-html="item.text")
+    div(
+      v-for="item in doc.body"
+      :class="item.state === '!' ? 'toodles-focus' : ['x', 'X'].includes(item.state) ? 'toodles-done' : ''"
+    )
+      span.not-prose.mr-3
+        input(
+          :id="item.id"
+          type="checkbox"
+          :checked="item.state === 'x'"
+          disabled
+          :class="item.indent ? 'ml-8' : ''"
+        )
+      label(:for="item.id")
+        MDC(:value="item.text" tag="span" unwrap="p" class="toodles-mdc")
 </template>
 
 <style lang="postcss">
@@ -25,8 +25,25 @@
 
 .toodles-done > label {
   @apply
-    opacity-70
-    line-through;
+    relative
+    opacity-70;
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 63%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid;
+  }
+}
+
+.toodles-mdc span:is(.toodles-priority) + time::before,
+.toodles-mdc time + time::before,
+.toodles-mdc time + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier)::before,
+.toodles-mdc span:is(.toodles-priority, .toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag) + span:is(.toodles-price, .toodles-context, .toodles-project, .toodles-hashtag, .toodles-tag, .toodles-multiplier)::before {
+  content: ' '
 }
 
 .toodles-priority {
@@ -36,31 +53,31 @@
     dark:text-violet-300;
 }
 
-label > time.toodles-date:first-of-type {
+label time.toodles-date:first-of-type {
   @apply
     text-cyan-800
     dark:text-cyan-300;
 }
 
-label > time.toodles-date:nth-of-type(2) {
+label time.toodles-date:nth-of-type(2) {
   @apply
     text-yellow-800
     dark:text-yellow-300;
 }
 
-.toodles-done > label > time.toodles-date:first-of-type {
+.toodles-done > label time.toodles-date:first-of-type {
   @apply
     text-lime-800
     dark:text-lime-300;
 }
 
-.toodles-done > label > time.toodles-date:nth-of-type(2) {
+.toodles-done > label time.toodles-date:nth-of-type(2) {
   @apply
     text-cyan-800
     dark:text-cyan-300;
 }
 
-.toodles-done > label > time.toodles-date:nth-of-type(3) {
+.toodles-done > label time.toodles-date:nth-of-type(3) {
   @apply
     text-yellow-800
     dark:text-yellow-300;
