@@ -1,10 +1,20 @@
+<script setup>
+const containerClass = (item) => {
+  let classes = []
+  if (item.indent) classes.push('toodles-indent')
+  if (item.state === '!') classes.push('toodles-focus')
+  if (['x', 'X'].includes(item.state)) classes.push('toodles-done')
+  return classes.join(' ')
+}
+</script>
+
 <template lang="pug">
 .prose.max-w-none
   ContentDoc(#default="{ doc }")
     h1 {{ doc.title }}
     div(
       v-for="item in doc.body"
-      :class="item.state === '!' ? 'toodles-focus' : ['x', 'X'].includes(item.state) ? 'toodles-done' : ''"
+      :class="containerClass(item)"
     )
       span.not-prose.mr-3
         input(
@@ -12,13 +22,16 @@
           type="checkbox"
           :checked="item.state === 'x'"
           disabled
-          :class="item.indent ? 'ml-8' : ''"
         )
       label(:for="item.id")
         MDC(:value="item.text" tag="span" unwrap="p" class="toodles-mdc")
 </template>
 
 <style lang="postcss">
+.toodles-indent {
+  @apply ml-8;
+}
+
 .toodles-focus > label {
   @apply font-bold;
 }
@@ -26,17 +39,16 @@
 .toodles-done > label {
   @apply
     relative
-    opacity-70;
-  &::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 63%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-bottom: 3px solid;
-  }
+    opacity-70
+    /*
+      The below styles all contribute to a strikethrough effect
+      which will span multiple lines and does not appear to be
+      broken or interrupted by discrepancies in font size.
+    */
+    underline
+    decoration-2
+    underline-offset-[-45%];
+  text-decoration-skip-ink: none;
 }
 
 .toodles-mdc span:is(.toodles-priority) + time::before,
