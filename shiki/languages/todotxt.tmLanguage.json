@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "todotxt",
+    "scopeName": "source.todotxt",
+    "fileTypes": [],
+    "patterns": [
+        {
+            "name": "keyword.control.todotxt.priority",
+            "match": "(?<=^)(\\([A-Z]\\))\\B"
+        },
+        {
+            "name": "string.interpolated.todotxt.date",
+            "match": "(?<=^(?:\\([A-Z]\\) )?)(\\d{4}-\\d{2}-\\d{2})\\b"
+        },
+        {
+            "name": "entity.name.class.todotxt.context",
+            "match": "\\B(\\@\\w+)"
+        },
+        {
+            "name": "constant.other.todotxt.project",
+            "match": "\\B(\\+\\w+)"
+        },
+        {
+            "name": "markup.deleted.todotxt.hashtag",
+            "match": "\\B(\\#\\w+)"
+        },
+        {
+            "name": "variable.parameter.todotxt.tag",
+            "match": "(?<!<|\\]\\()\\b(\\w+(?<!https?):\\S+)"
+        },
+        {
+            "name": "comment.line.todotxt.done",
+            "begin": "(?<=^)[xX]",
+            "end": "$"
+        }
+    ]
+}
