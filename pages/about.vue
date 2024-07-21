@@ -1,7 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+const route = useRoute()
 
-const { data: profile } = await useAsyncData('about', () => queryContent('/_data/profile').findOne())
+const { data: page } = await useAsyncData(`thombruce-about-${route.path}`, () => queryContent(route.path).findOne())
+
+const { data: profile } = await useAsyncData(`thombruce-about-${route.path}-profile`, () => queryContent('/_data/profile').findOne())
+
+useContentHead(page)
 </script>
 
 <template lang="pug">
