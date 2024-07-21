@@ -5,7 +5,7 @@ const { data: profile } = await useAsyncData('about', () => queryContent('/_data
 </script>
 
 <template lang="pug">
-.prose.max-w-none
+NuxtLayout
   h1 About
 
   Breadcrumbs
@@ -35,11 +35,9 @@ const { data: profile } = await useAsyncData('about', () => queryContent('/_data
       em 3 time donor
 
   h2 Programming Skills
-  ContentQuery(path="/_data/skills" find="one")
-    template(#default="{ data }")
-      .grid.grid-cols-3
-        .text-center(v-for="skill in data.body" :key="skill.name")
-          .text-8xl
-            Icon(:name="skill.icon")/
-          p {{ skill.name }}
+  .grid.grid-cols-3
+    .text-center(v-for="skill in profile.skills" :key="skill.name")
+      .text-8xl
+        Icon(:name="skill.icon")/
+      p {{ skill.name }}
 </template>
