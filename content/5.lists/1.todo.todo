@@ -8,6 +8,8 @@
 2024-07-16 Replace +TNT form components with #FormKit
 2024-07-16 Start work on +Carriage (is that a good name? really?) screenplay writer/editor
 2024-07-16 Start work on +Inkpot novel writer/editor
+2024-07-21 Create +UntitledPongClone from #Bevy [webview template](https://github.com/bevyengine/bevy_github_ci_template)
+2024-07-21 Finish +Verse #Bevy project to at least simple space shooter
 x (A) 2024-07-16 2024-07-15 Update #Umami to run off fork instead of own repo
 x (A) 2024-07-16 2024-07-15 Rework THIS .txt parser/decorator to +Toodles spec
 x (A) 2024-07-19 2024-07-19 Reattempt `vsce publish` of +Toodles #VSCode v0.0.10 when service back online
