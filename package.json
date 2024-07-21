@@ -8,7 +8,7 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@thombruce/fountainjs": "^2.0.0",
+    "@thombruce/fountainjs": "^2.1.0",
     "@thombruce/tnt-content": "^0.25.0"
   },
   "devDependencies": {

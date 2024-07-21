@@ -1639,10 +1639,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thombruce/fountainjs@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.0.1.tgz#6037daecf957676e5cf2bd04c170f7e917e68b86"
-  integrity sha512-3DhK4FT3Ex1VeRxpEbQzYDFTKZ3PY5SN7HdFTYG5s0iyMgJuPOeaCl/fgLZAOoNLw6bbwwd5O+12ctydi4IGMA==
+"@thombruce/fountainjs@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.1.0.tgz#76f71357ef05b48e3191de05938577a7d2580c19"
+  integrity sha512-9cpG1Z/vowqbNZFVpWHjMQVy30fLrX+Vc24qrZOdVZhS7nW36kZxAwU7WwEEU4UstZw00Ax783NT9sF4GCXD5g==
 
 "@thombruce/tnt-content@^0.25.0":
   version "0.25.6"
