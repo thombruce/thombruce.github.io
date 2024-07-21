@@ -3,42 +3,71 @@
     "name": "toodles",
     "scopeName": "source.toodles",
     "fileTypes": [],
-    "patterns": [
-        {
+    "repository": {
+        "priority": {
             "name": "keyword.control.toodles.priority",
             "match": "(?<=^ *(?:[!Xx~-] )?)(\\([A-Z]\\))\\B"
         },
-        {
+        "date": {
             "name": "string.interpolated.toodles.date",
             "match": "(?<=^ *(?:[!Xx~-] )?(?:\\([A-Z]\\) )?)(\\d{4}-\\d{2}-\\d{2})\\b"
         },
-        {
+        "due": {
             "name": "markup.changed.toodles.due",
             "match": "(?<=^ *(?:[!Xx~-] )?(?:\\([A-Z]\\) )?(?:\\d{4}-\\d{2}-\\d{2} ))(\\d{4}-\\d{2}-\\d{2})\\b"
         },
-        {
+        "price": {
             "name": "markup.inserted.toodles.price",
             "match": "(?<=^ *(?:[!Xx~-] )?(?:\\([A-Z]\\) )?(?:\\d{4}-\\d{2}-\\d{2} ){0,3})((?:[$£€]\\d*[.,]?\\d{1,2}-)?[$£€]\\d*[.,]?\\d{1,2})(?= )"
         },
-        {
+        "context": {
             "name": "entity.name.class.toodles.context",
             "match": "\\B(\\@\\w+)"
         },
-        {
+        "project": {
             "name": "constant.other.toodles.project",
             "match": "\\B(\\+\\w+)"
         },
-        {
+        "hashtag": {
             "name": "markup.deleted.toodles.hashtag",
             "match": "\\B(\\#\\w+)"
         },
-        {
+        "tag": {
             "name": "variable.parameter.toodles.tag",
             "match": "(?<!<|\\]\\()\\b(\\w+(?<!https?):\\S+)"
         },
-        {
+        "multiplier": {
             "name": "keyword.other.unit.toodles.multiplier",
             "match": "\\b(x\\d+)$"
+        }
+    },
+    "patterns": [
+        {
+            "include": "#priority"
+        },
+        {
+            "include": "#date"
+        },
+        {
+            "include": "#due"
+        },
+        {
+            "include": "#price"
+        },
+        {
+            "include": "#context"
+        },
+        {
+            "include": "#project"
+        },
+        {
+            "include": "#hashtag"
+        },
+        {
+            "include": "#tag"
+        },
+        {
+            "include": "#multiplier"
         },
         {
             "name": "markup.bold.toodles",
@@ -46,40 +75,31 @@
             "end": "$",
             "patterns": [
                 {
-                    "name": "keyword.control.toodles.priority",
-                    "match": "(?<=^ *(?:[!Xx~-] )?)(\\([A-Z]\\))\\B"
+                    "include": "#priority"
                 },
                 {
-                    "name": "string.interpolated.toodles.date",
-                    "match": "(?<=^ *(?:[!Xx~-] )?(?:\\([A-Z]\\) )?)(\\d{4}-\\d{2}-\\d{2})\\b"
+                    "include": "#date"
                 },
                 {
-                    "name": "markup.changed.toodles.due",
-                    "match": "(?<=^ *(?:[!Xx~-] )?(?:\\([A-Z]\\) )?(?:\\d{4}-\\d{2}-\\d{2} ))(\\d{4}-\\d{2}-\\d{2})\\b"
+                    "include": "#due"
                 },
                 {
-                    "name": "markup.inserted.toodles.price",
-                    "match": "(?<=^ *(?:[!Xx~-] )?(?:\\([A-Z]\\) )?(?:\\d{4}-\\d{2}-\\d{2} ){0,3})((?:[$£€]\\d*[.,]?\\d{1,2}-)?[$£€]\\d*[.,]?\\d{1,2})(?= )"
+                    "include": "#price"
                 },
                 {
-                    "name": "entity.name.class.toodles.context",
-                    "match": "\\B(\\@\\w+)"
+                    "include": "#context"
                 },
                 {
-                    "name": "constant.other.toodles.project",
-                    "match": "\\B(\\+\\w+)"
+                    "include": "#project"
                 },
                 {
-                    "name": "markup.deleted.toodles.hashtag",
-                    "match": "\\B(\\#\\w+)"
+                    "include": "#hashtag"
                 },
                 {
-                    "name": "variable.parameter.toodles.tag",
-                    "match": "(?<!<|\\]\\()\\b(\\w+(?<!https?):\\S+)"
+                    "include": "#tag"
                 },
                 {
-                    "name": "keyword.other.unit.toodles.multiplier",
-                    "match": "\\b(x\\d+)$"
+                    "include": "#multiplier"
                 }
             ]
         },
