@@ -9,5 +9,6 @@ export default defineAppConfig({
   layout: 'article',
   taxonomies: [
     'franchise'
-  ]
+  ],
+  gradient: true,
 })
