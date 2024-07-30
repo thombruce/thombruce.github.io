@@ -1651,10 +1651,10 @@
   resolved "https://registry.yarnpkg.com/@thombruce/fountainjs/-/fountainjs-2.1.0.tgz#76f71357ef05b48e3191de05938577a7d2580c19"
   integrity sha512-9cpG1Z/vowqbNZFVpWHjMQVy30fLrX+Vc24qrZOdVZhS7nW36kZxAwU7WwEEU4UstZw00Ax783NT9sF4GCXD5g==
 
-"@thombruce/tnt-content@^0.27.12":
-  version "0.27.12"
-  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.27.12.tgz#f7e609e1f8dfb1cd31b3d4c83959d49f624610ec"
-  integrity sha512-wVsG5OFIomO55ZVXjOf0c92k1EmrFlIZv+TUZ0jQKwwhbp31JHTtRdlfnUCE8Fyizsv6sjGiDGErJrV5pF0xlA==
+"@thombruce/tnt-content@^0.27.13":
+  version "0.27.13"
+  resolved "https://registry.yarnpkg.com/@thombruce/tnt-content/-/tnt-content-0.27.13.tgz#f1c73b06fc40754b570f15bb4ad8125252557706"
+  integrity sha512-wt5NfyyQNxr7a76ommW6/DDLZFKtr+aqrbN9Nn6J/atPO78uDeOZ179dZ7t2LoIojKQEU5c+ZJJBiGeN1dIh9w==
   dependencies:
     "@nuxt/content" "npm:@nuxt/content-edge@latest"
     "@thombruce/tnt" "^0.27.12"
