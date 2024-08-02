@@ -45,10 +45,16 @@ export default defineTransformer({
   parse (_id, rawContent: String) {
     const parsed = toodles(rawContent)
 
+    const firstLine = rawContent.trim().split('\n')[0]
+    const icon = (firstLine.match(/(?<=^~.+?icon=)(\S+)/m) || [])[0]
+
     return {
       _id,
       layout: 'toodles',
       body: parsed,
+      navigation: {
+        icon
+      }
     }
   }
 })
