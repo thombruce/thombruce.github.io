@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+NuxtLayout
   ContentDoc
     template(#default="{ doc }")
       .prose.max-w-none

@@ -1,5 +1,5 @@
 <template lang="pug">
-.prose.max-w-none
+NuxtLayout
   ContentDoc(v-slot="{ doc }")
     h1 {{ doc.title }}
     Breadcrumbs
