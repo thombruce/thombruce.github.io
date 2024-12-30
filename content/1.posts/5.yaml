@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T16:44:29+00:00
+body: |
+  Alright, I'm pretty happy with how this is looking so far. Eventually I'll have support
+  for replies/follows from Mastodon, hopefully also Bluesky. Before that, I'll add support
+  for image attachments, hashtags and links. Emojis? Already supported. 🙂

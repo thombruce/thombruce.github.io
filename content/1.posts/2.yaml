@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T16:32:24+00:00
+body: |
+  This is just a basic setup for now. No support for replies or threading,
+  so each post is going to be its own, separate entity. No support yet for
+  attachments either, though that's an early priority. And no real restrictions
+  on characters... except those I impose myself.

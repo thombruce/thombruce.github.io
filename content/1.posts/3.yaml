@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T16:36:51+00:00
+body: |
+  For now, I'm limiting myself to 280 characters. This is the Twitter limit.
+  Bluesky's is 300 and Mastodon's is 500 (I think Threads is the same). My plan
+  is to integrate with these eventually; have this be the canonical source of
+  my microposts and allow followers from those sites.
