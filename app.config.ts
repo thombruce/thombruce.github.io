@@ -10,5 +10,4 @@ export default defineAppConfig({
   taxonomies: [
     'franchise'
   ],
-  gradient: true,
 })
