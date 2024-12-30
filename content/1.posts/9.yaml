@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T19:43:01+00:00
+body: |
+  Notable examples of hosts that support serverless functions: Vercel, Netlify,
+  Cloudflare Pages (which I only discovered exists earlier today). I've already
+  worked with Vercel's serverless functions before, so I think I'll migrate my
+  site there.

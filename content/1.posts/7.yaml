@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T19:37:02+00:00
+body: |
+  My site is a static website. I like it that way. The code and the content can live together
+  in the same repo; it's super portable and super efficient because it doesn't require a server.
+  Downside? No server. And right now I'm hosting it on GitHub Pages, so no real backend at all.

@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T19:51:29+00:00
+body: |
+  I think the right call is to store the likes and follows we need to store in a
+  database and access that information dynamically. This significantly reduces the
+  latency when connecting my site with the fast-moving domain of social media.

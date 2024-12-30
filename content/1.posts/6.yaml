@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T19:32:11+00:00
+body: |
+  I need to consider the server-side aspect of this, and I should do it early; I should do it now.
+  I believe that to integrate with Mastodon and Bluesky, I need an address on my site that can receive
+  POST requests and respond accordingly (e.g. adding a follower, tallying a like).

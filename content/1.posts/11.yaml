@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T19:47:50+00:00
+body: |
+  Technically, I think my storage mechanism could remain static. There'd be some latency
+  as the site would need to rebuild before the data became readable... but there's no
+  technical reason why this shouldn't work. Is it the right call though? I don't think so.

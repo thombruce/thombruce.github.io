@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T19:45:35+00:00
+body: |
+  Not sure what the full set of functions I need to support is, but I think ActivityPub
+  (which Mastodon uses) has the concept of an "Inbox". This inbox receives the activity
+  requests for things like... likes, replies, follows... and your server is expected to
+  handle these.

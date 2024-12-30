@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T19:39:48+00:00
+body: |
+  Some static site hosts do support something called "Serverless Functions". These are...
+  Let's think of them as micro-servers that engage with requests similarly to traditional
+  servers; they're just used less frequently and for specific needs.
