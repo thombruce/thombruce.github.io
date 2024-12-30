@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T21:11:24+00:00
+body: |
+  According to this forum post I found, fediverse content is always text/html
+  by default: https://socialhub.activitypub.rocks/t/content-text-plain-and-fallback-behaviors-for-limited-clients/340
+  So technically Mastodon clients should support at least a subset of the full HTML spec?

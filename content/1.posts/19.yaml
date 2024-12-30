@@ -1,0 +1,5 @@
+createdAt: 2024-12-30T21:08:43+00:00
+body: |
+  Technically Mastodon will display rich text if it comes from a non-Mastodon
+  application elsewhere in the fediverse. Here's a bit of an explainer:
+  https://fedi.tips/is-mastodon-compatible-with-rich-text-formatting-such-as-markdown/

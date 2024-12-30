@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T21:06:47+00:00
+body: |
+  Easy way to fix links? My static site generator already has a markdown parser, so
+  just treat them as markdown. Bluesky already has rich text support
+  (https://docs.bsky.app/docs/advanced-guides/post-richtext). Mastodon... it's
+  complicated.

@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T21:17:17+00:00
+body: |
+  That said though... Parsing these posts as Markdown is the easiest/quickest option.
+  And I'm not compelled to use the full set of features; I can use whatever
+  subset I like. I will need to rethink the handling anyway when it comes to serialising
+  the posts for Mastodon.

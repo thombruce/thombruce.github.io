@@ -1,0 +1,6 @@
+createdAt: 2024-12-30T21:52:43+00:00
+body: |
+  It's just this easy: `MDC(:value="post.body" unwrap="p")` I hesitate to use block-level
+  Markdown, though I expect Mastodon handles it fine. Bluesky is the issue; the code
+  for rich text facets is pretty limited in scope: links, tags and mentions are all that
+  seem to be supported.

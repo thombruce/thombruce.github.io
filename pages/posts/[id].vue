@@ -8,5 +8,5 @@ NuxtLayout(:name="page?.layout || layout || 'default'")
   article
     div
       NuxtLink(:to="post._path") {{ post.createdAt }}
-    div {{ post.body }}
+    MDC(:value="post.body" unwrap="p")
 </template>
