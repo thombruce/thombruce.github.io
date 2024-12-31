@@ -1,0 +1,5 @@
+createdAt: 2024-12-31T16:37:26+00:00
+body: |
+  Alright, Vercel migration time. This site is currently stored in a repo at thombruce/thombruce.github.io.
+  This creates a GitHub Page at the given 'github.io' address. But if we're moving to Vercel, that
+  naming is redundant and misleading. We want to change it to 'thombruce.com'.

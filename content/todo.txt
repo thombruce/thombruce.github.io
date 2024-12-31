@@ -1,3 +1,4 @@
 2024-12-30 Add #Mastodon integration to +Microposts
 2024-12-30 Migrate thombruce.com to #Vercel
+2024-12-31 Convert use of Date toLocaleString to a reusable composable
 x (A) 2024-12-30 2024-12-30 Ensure that links display as links when included in +Microposts

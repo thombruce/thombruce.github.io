@@ -1,0 +1,5 @@
+createdAt: 2024-12-31T17:04:14+00:00
+body: |
+  That's done, changes have been made in my Cloudflare DNS and the changes are propagating.
+  Vercel is generating SSL certificates. I'm gonna give it a little time and revisit later.
+  Looks like it's already working, but let's be cautious before I take the next steps.

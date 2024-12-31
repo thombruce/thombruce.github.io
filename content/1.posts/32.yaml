@@ -1,0 +1,6 @@
+createdAt: 2024-12-31T16:46:55+00:00
+body: |
+  Step one is done. My site is now on Vercel at https://thombruce.vercel.app/.
+  Changing the target of my custom domain (thombruce.com) to this shouldn't
+  result in any downtime... and then I just need to rename the repo and stop
+  the GitHub builds. Easy.
