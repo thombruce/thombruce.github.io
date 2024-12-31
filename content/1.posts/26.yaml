@@ -1,0 +1,6 @@
+createdAt: 2024-12-31T15:20:16+00:00
+body: |
+  Bluesky's "facets" avoid syntax barfing and simplify character counting. Let's make-believe
+  we have our own syntax; this is what syntax barf looks like: `%%Ugly Markup%%`. Because
+  third-party clients don't know what my unique syntax is supposed to mean, they can't
+  parse it.

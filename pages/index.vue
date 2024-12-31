@@ -1,11 +1,13 @@
 <script setup lang="ts">
 const route = useRoute()
-const { data } = await useAsyncData(`posts`, () => queryContent(route.path).sort({ createdAt: -1 }).find())
+const { data: posts } = await useAsyncData(`posts`, () => queryContent('/posts').sort({ createdAt: -1 }).find())
 </script>
 
 <template lang="pug">
 NuxtLayout(:name="page?.layout || layout || 'default'")
-  article.py-5(v-for="post in data")
+  //- ArticleList
+
+  article.py-5(v-for="post in posts")
     div
       NuxtLink(:to="post._path") {{ post.createdAt }}
     MDC.text-lg(:value="post.body" unwrap="p")

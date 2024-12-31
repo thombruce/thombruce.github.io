@@ -5,8 +5,8 @@ const { data:post } = await useAsyncData(`post-${route.path}`, () => queryConten
 
 <template lang="pug">
 NuxtLayout(:name="page?.layout || layout || 'default'")
-  article
-    div
+  article.py-5
+    div.text-lg
       NuxtLink(:to="post._path") {{ post.createdAt }}
-    MDC(:value="post.body" unwrap="p")
+    MDC.text-xl(:value="post.body" unwrap="p")
 </template>
