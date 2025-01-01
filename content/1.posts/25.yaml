@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T15:16:18+00:00
-body: |
+text: |
   The justification for using "facets" in Bluesky over a markup syntax is actually really solid;
   I love it! Paul Frazee details it here: https://www.pfrazee.com/blog/why-facets Essentially it
   boils down to keeping parsing simple for third party clients.

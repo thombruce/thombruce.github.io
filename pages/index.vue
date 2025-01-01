@@ -10,5 +10,5 @@ NuxtLayout(:name="page?.layout || layout || 'default'")
   article.py-5(v-for="post in posts")
     div
       NuxtLink(:to="post._path") {{ new Date(post.createdAt).toLocaleString() }}
-    MDC.text-lg(:value="post.body" unwrap="p")
+    MDC.text-lg(:value="post.text" unwrap="p")
 </template>

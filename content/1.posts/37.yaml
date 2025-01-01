@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T17:41:07+00:00
-body: |
+text: |
   Now that we're on Vercel and I'm happy with the repo rename (https://github.com/thombruce/thombruce.com),
   we now have access to Vercel's serverless functions. These are going to be essential for my integrations
   with Mastodon and, eventually, Bluesky.

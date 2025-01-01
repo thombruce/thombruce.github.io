@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T16:40:38+00:00
-body: |
+text: |
   So I want to change the name of my repo AND move the build to Vercel, ideally with no downtime.
   First step: Let's build at Vercel from the repo as is. Get both versions of the build
   active, then we can change where the domain is pointing. After that: change repo name and relink.

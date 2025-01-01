@@ -8,5 +8,5 @@ NuxtLayout(:name="page?.layout || layout || 'default'")
   article.py-5
     div.text-lg
       NuxtLink(:to="post._path") {{ new Date(post.createdAt).toLocaleString() }}
-    MDC.text-xl(:value="post.body" unwrap="p")
+    MDC.text-xl(:value="post.text" unwrap="p")
 </template>

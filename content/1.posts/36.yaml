@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T17:33:24+00:00
-body: |
+text: |
   I've checked and we're definitely now resolving the domain to the new server.
   I've unpublished the site on GitHub Pages. I just now need to... 1. Probably just
   comment out the deploy script for now (done!) and 2. Change the repo name and relink

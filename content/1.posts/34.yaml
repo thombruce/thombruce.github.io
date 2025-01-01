@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T16:59:46+00:00
-body: |
+text: |
   Fuck it, yeah. Let's make the new canonical URL 'www'.
   Since Vercel will redirect all traffic seeking 'thombruce.com' there
   anyway, I can't immediately foresee any downsides to making the

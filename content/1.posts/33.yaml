@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T16:54:06+00:00
-body: |
+text: |
   Unexpected choice. I've been using an apex domain for ages (thombruce.com) with the
   www variant redirecting to it... but I could change this. Have the apex redirect to
   the www subdomain instead. It's a question of how much of a concern cookie management

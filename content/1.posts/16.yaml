@@ -1,5 +1,5 @@
 createdAt: 2024-12-30T20:04:59+00:00
-body: |
+text: |
   One last thing before I commit! I don't know if links yet just work implicitly
   or if I need to do something to handle them better. I've also just added a todo
   list with a couple of items, so... appropriate time to test this:

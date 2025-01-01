@@ -1,5 +1,5 @@
 createdAt: 2024-12-31T15:25:16+00:00
-body: |
+text: |
   So text decoration is a little harder to implement for Bluesky or the AT Protocol,
   but actually it's an elegant and incremental solution... and extensible too. If I wanted
   to support spoiler tags ahead of Bluesky doing so, I could create my own facet "feature"

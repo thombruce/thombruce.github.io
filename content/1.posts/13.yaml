@@ -1,5 +1,5 @@
 createdAt: 2024-12-30T19:53:25+00:00
-body: |
+text: |
   I don't mind at all if there's latency when I'm creating these posts. Right now I'm
   typing this in VS Code, posts 6 through 13 are not yet committed to my repo, once I
   commit and push, the site will be queued to build and the posts won't be live for 5-10
