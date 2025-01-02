@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     './layers/fountain',
     '@thombruce/tnt-content'
   ],
+  nitro: { static: true },
   routeRules: {
     '/discord': { redirect: 'https://discord.gg/SAUagUgTfa' },
     '/github': { redirect: 'https://github.com/thombruce' },
