@@ -10,8 +10,13 @@ export default defineNuxtConfig({
     './layers/fountain',
     '@thombruce/tnt-content'
   ],
-  nitro: { static: true },
+  site: {
+    url: 'https://www.thombruce.com',
+    name: 'Thom Bruce',
+  },
+  // nitro: { static: true },
   routeRules: {
+    // '/__og-image__/static/**': { prerender: true },
     '/discord': { redirect: 'https://discord.gg/SAUagUgTfa' },
     '/github': { redirect: 'https://github.com/thombruce' },
     '/mastodon': { redirect: 'https://mas.to/@thombruce' },
