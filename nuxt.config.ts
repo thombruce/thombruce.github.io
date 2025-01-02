@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     url: 'https://www.thombruce.com',
     name: 'Thom Bruce',
   },
-  // nitro: { static: true },
+  nitro: { static: true },
   routeRules: {
     // '/__og-image__/**': { prerender: true },
     '/discord': { redirect: 'https://discord.gg/SAUagUgTfa' },
