@@ -1,0 +1,6 @@
+createdAt: 2025-01-03T18:45:24+00:00
+text: |
+  So, this site has one major dependency called @thombruce/tnt-content, a child module of
+  @thombruce/tnt which I've been working on for a while. It's a hodgepodge of Nuxt, Vue and
+  JS libraries that I think are handy to have grouped together as a framework of commonly
+  used modules.

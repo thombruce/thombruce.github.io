@@ -1,0 +1,6 @@
+createdAt: 2025-01-03T18:58:57+00:00
+text: |
+  Basically... Why use Nuxt to solve something that Git already does?
+  I mean I know Nuxt Layers does more than what I'm describing here,
+  but this is one major use-case I've been using Nuxt Layers for that... I just
+  don't need to. TNT should be a repository template, not a module.

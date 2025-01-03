@@ -1,0 +1,6 @@
+createdAt: 2025-01-03T19:01:18+00:00
+text: |
+  Approach is simple: Redevelop TNT from scratch as a repository-based template
+  with intent to fork and fast-forward changes. Have my Nuxt-based sites be forks
+  of that repository. It's going to be tedious adopting this approach, but it's
+  going to be easier to manage long-term.

@@ -1,0 +1,5 @@
+createdAt: 2025-01-03T18:51:04+00:00
+text: |
+  The problem with TNT is... I've obfuscated the issues that get in the way of development.
+  It's still a good idea, it just may be the wrong approach... or is trying to do too much. I need
+  to simplify, consolidate - bring dependencies into this project, where I can monitor them.
